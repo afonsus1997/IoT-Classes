@@ -8,6 +8,7 @@ from datetime import datetime
 
 
 df = pd.read_csv('DCOILBRENTEU.csv', na_values=['.'])
+df = df.dropna() #without this, the rolling average is a mess because of the NaN values
 print(df)
 
 df['DATE'] = df['DATE'].map(lambda x: datetime.strptime(str(x), '%Y-%m-%d'))
