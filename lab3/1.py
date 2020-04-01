@@ -24,24 +24,37 @@ Volume = df['Volume '].fillna(df['Volume '].mean(skipna=True))
 def detect_outliers(x, y, k):
     avg = y.mean()
     std_dev = y.values.std(ddof=1)
-    print("Average: " + str(avg) + "\n")
-    print("Std dev: " + str(std_dev) + "\n")
+    # print("Average: " + str(avg) + "\n")
+    # print("Std dev: " + str(std_dev) + "\n")
     down = y[(y < avg - k * std_dev)]
     up = y[(y > avg + k * std_dev)]
-    print("Outliers below average-K*sigma\n")
-    print(down)
-    print("Outliers above average+K*sigma\n")
-    print(up)
-    print("All outliers \n")
+    # print("Outliers below average-K*sigma\n")
+    # print(down)
+    # print("Outliers above average+K*sigma\n")
+    # print(up)
+    # print("All outliers \n")
     # all = all.concat
-    print(up.append(down))
+    # print(type(up.append(down).index.array))
+    return up.append(down).index.array
+
 
 
 
     # print(std_dev)
 
 plt.subplot(141)
-plt.plot(x, Open)
+outliers = detect_outliers(x, Open, 1)
+Open_n = Open.drop(outliers)
+x_n = x.drop(outliers)
+print(Open)
+print(Open_n)
+
+print(type(x))
+print(type(Open))
+print(type(Open_n))
+
+
+plt.plot(x_n, Open_n)
 plt.subplot(142)
 plt.plot(x, High)
 plt.subplot(143)
@@ -49,7 +62,6 @@ plt.plot(x, Low)
 plt.subplot(144)
 plt.plot(x, Close)
 
-detect_outliers(x, Open, 1)
 
 # plt.subplot(142)
 # plt.plot(x, y_minmax)
