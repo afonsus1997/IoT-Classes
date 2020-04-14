@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib
 import matplotlib.dates as mdates
 from sklearn import preprocessing
 from sklearn.preprocessing import StandardScaler
@@ -21,11 +22,12 @@ Volume = df['Volume '].fillna(df['Volume '].mean(skipna=True))
 # y = df[['DCOILBRENTEU']]
 
 
+
 def detect_outliers(x, y, k):
     avg = y.mean()
-    std_dev = y.values.std(ddof=1)
-    # print("Average: " + str(avg) + "\n")
-    # print("Std dev: " + str(std_dev) + "\n")
+    std_dev = y.values.std()
+    print("Average: " + str(avg) + "\n")
+    print("Std dev: " + str(std_dev) + "\n")
     down = y[(y < avg - k * std_dev)]
     up = y[(y > avg + k * std_dev)]
     # print("Outliers below average-K*sigma\n")
@@ -38,29 +40,47 @@ def detect_outliers(x, y, k):
     return up.append(down).index.array
 
 
+def delete_outliers(x, y, outlier_array):
+    print(outlier_array)
+    x_out = x.drop(outlier_array)
+    y_out = y.drop(outlier_array)
+    return [x_out, y_out]
 
+def replace_previous(y, outlier_array):
+    y_list = y.tolist()
+    for i in range(len(outlier_array)):
+        y_list[outlier_array[i]] = y_list[abs(outlier_array[i]-1)]
+    return pd.Series(y_list)
 
-    # print(std_dev)
+def interpolate_outliers(x, y, outlier_array):
+    y_local = y.copy(deep=True)
+    for i in range(len(outlier_array)):
+        y_local[outlier_array[i]] = np.nan
+    temp = x.to_frame().join(y_local)
+    print(temp)
+    temp = temp.interpolate()
+    print(temp)
+    return temp['Volume ']
 
-plt.subplot(141)
-outliers = detect_outliers(x, Open, 1)
-Open_n = Open.drop(outliers)
-x_n = x.drop(outliers)
-print(Open)
-print(Open_n)
+outliers = detect_outliers(x, Volume, 1)
+[x_d, Volume_d] = delete_outliers(x, Volume, outliers)
+Volume_p = replace_previous(Volume, outliers)
+Volume_i = interpolate_outliers(x, Volume, outliers)
 
-print(type(x))
-print(type(Open))
-print(type(Open_n))
+fig, ax = plt.subplots(2, 2)
 
+ax[0, 0].plot(x, Volume)
+ax[0, 0].set_title('Original')
 
-plt.plot(x_n, Open_n)
-plt.subplot(142)
-plt.plot(x, High)
-plt.subplot(143)
-plt.plot(x, Low)
-plt.subplot(144)
-plt.plot(x, Close)
+ax[0, 1].plot(x_d, Volume_d)
+ax[0, 1].set_title('Deleted outliers')
+
+ax[1, 0].plot(x, Volume_p)
+ax[1, 0].set_title('Previous value')
+
+ax[1, 1].plot(x, Volume_i)
+ax[1, 1].set_title('Interpolated outliers')
+
 
 
 # plt.subplot(142)
