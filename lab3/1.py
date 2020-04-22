@@ -67,21 +67,36 @@ outliers = detect_outliers(x, Volume, 1)
 Volume_p = replace_previous(Volume, outliers)
 Volume_i = interpolate_outliers(x, Volume, outliers)
 
-fig, ax = plt.subplots(2, 2)
+# fig, ax = plt.subplots(2, 2)
+#
+# ax[0, 0].plot(x, Volume)
+# ax[0, 0].set_title('Original')
+#
+# ax[0, 1].plot(x_d, Volume_d)
+# ax[0, 1].set_title('Deleted outliers')
+#
+# ax[1, 0].plot(x, Volume_p)
+# ax[1, 0].set_title('Previous value')
+#
+# ax[1, 1].plot(x, Volume_i)
+# ax[1, 1].set_title('Interpolated outliers')
 
-ax[0, 0].plot(x, Volume)
-ax[0, 0].set_title('Original')
+def calc_id_day(df):
 
-ax[0, 1].plot(x_d, Volume_d)
-ax[0, 1].set_title('Deleted outliers')
+    y = df.diff(axis = 1, periods = -1)
+    #print(y[ 0.02 > y['High'] > 0.01].count())
+    #y = y.drop('Low', axis=1)
+    #y.groupby(y.cut(y, np.arange(0.000,0.030,0.005))).count()
+    return y['High']
 
-ax[1, 0].plot(x, Volume_p)
-ax[1, 0].set_title('Previous value')
-
-ax[1, 1].plot(x, Volume_i)
-ax[1, 1].set_title('Interpolated outliers')
-
-
+plt.hist(calc_id_day(df[['High','Low']]))
+#plt.hist(calc_dif(df['Close']))
+plt.title('High to Low - Same day difference')
+# plt.xticks(np.arange(0.000,0.055,0.005125))
+# plt.yticks(np.arange(0,1400,50))
+plt.tight_layout()
+plt.grid()
+plt.show()
 
 # plt.subplot(142)
 # plt.plot(x, y_minmax)

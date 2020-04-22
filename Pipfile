@@ -6,15 +6,14 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-numpy = "*"
-scipy = "*"
-matplotlib = "*"
-ipython = "*"
-jupyter = "*"
 pandas = "*"
-sympy = "*"
-nose = "*"
 sklearn = "*"
+matplotlib = "*"
+numpy = "*"
+yellowbrick = "*"
+seaborn = "*"
+neuraxle = "*"
+jupyter = "*"
 
 [requires]
 python_version = "3.6"
