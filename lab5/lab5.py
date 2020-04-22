@@ -75,18 +75,25 @@ data[['Elapsed Days In Sales Stage', 'Sales Stage Change Count', 'Total Days Ide
 x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.2, random_state=21)
 
 mlp = MLPClassifier(max_iter=300, verbose=1)
+hidden_layers_constructor = []
 hidden_layers = []
 # hidden_layers = [(10, 5), (100, 50), (50, 10, 2), (50, 25)]
 sum_test = [10, 11, 12, 13, 14, 15, 16, 18, 20, 25, 30, 35, 40, 50, 100, 150, 200]
 for i in range(len(sum_test)):
-    hidden_layers += list(tuples_sum(1,sum_test[i],order=False)) + list(tuples_sum(2,sum_test[i],order=False)) + [(150, 100, 50)]
+    hidden_layers_constructor += list(tuples_sum(1,sum_test[i],order=False))
+# print(hidden_layers_constructor)
+
+for i in range(len(hidden_layers_constructor)):
+    hidden_layers += [(39, 161) + hidden_layers_constructor[i]]
+
 print(hidden_layers)
 
 parameter_space = {
     'hidden_layer_sizes': hidden_layers,
     'activation': ['relu'],
     'solver': ['adam'],
-    'alpha': [0.001, 0.05, 0.5, 1, 10],
+    # 'alpha': [0.001, 0.05, 0.5, 1, 10],
+    'alpha' : [0.05],
     'learning_rate': ['constant'],
 }
 
