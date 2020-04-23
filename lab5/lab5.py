@@ -72,19 +72,22 @@ data[['Elapsed Days In Sales Stage', 'Sales Stage Change Count', 'Total Days Ide
 # daata = pd.DataFrame(data)
 # daata.to_csv('F:\Documents\GitHub\IoT-Classes\lab5\export_dataframe.csv', index = False, header=True)
 
-x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.2, random_state=21)
+# x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.2, random_state=21)
+
+x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.2, random_state=1)
+x_train, x_val, y_train, y_val = train_test_split(x_train, y_train, test_size=0.25, random_state=1)
 
 mlp = MLPClassifier(max_iter=300, verbose=1)
 hidden_layers_constructor = []
 hidden_layers = []
 # hidden_layers = [(10, 5), (100, 50), (50, 10, 2), (50, 25)]
-sum_test = [10, 11, 12, 13, 14, 15, 16, 18, 20, 25, 30, 35, 40, 50, 100, 150, 200]
+sum_test = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 30, 35, 40, 50, 100, 150, 200]
 for i in range(len(sum_test)):
     hidden_layers_constructor += list(tuples_sum(1,sum_test[i],order=False))
 # print(hidden_layers_constructor)
 
 for i in range(len(hidden_layers_constructor)):
-    hidden_layers += [(39, 161) + hidden_layers_constructor[i]]
+    hidden_layers += [(39, 161, 18) + hidden_layers_constructor[i]]
 
 print(hidden_layers)
 
@@ -108,7 +111,7 @@ clf.fit(x_train, y_train)
 y_pred = clf.predict(x_train)
 
 # Best paramete set
-# print('Best parameters found:\n', clf.best_params_)
+print('Best parameters found:\n', clf.best_params_)
 
 # # All results
 # means = clf.cv_results_['mean_test_score']
@@ -116,9 +119,7 @@ y_pred = clf.predict(x_train)
 # for mean, std, params in zip(means, stds, clf.cv_results_['params']):
 #     print("%0.3f (+/-%0.03f) for %r" % (mean, std * 2, params))
 
-optimization_results = pd.DataFrame(clf.cv_results_)
-optimization_results = optimization_results.sort_values(by='rank_test_score', ascending=False)
-optimization_results.to_csv('F:\Documents\GitHub\IoT-Classes\lab5\optimization_results.csv', index = False, header=True)
+
 
 
 # {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 100, 50), 'learning_rate': 'constant', 'solver': 'sgd'}
@@ -167,3 +168,7 @@ print(cm)
 print(classification_report(y_test, pred_test))
 # sns.heatmap(cm, center=True)
 # plt.show()
+
+optimization_results = pd.DataFrame(clf.cv_results_)
+optimization_results = optimization_results.sort_values(by='rank_test_score', ascending=False)
+optimization_results.to_csv('F:\Documents\GitHub\IoT-Classes\lab5\optimization_results.csv', index = False, header=True)
