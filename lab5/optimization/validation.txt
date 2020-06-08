@@ -1,0 +1,35 @@
+========TEST=========
+Accuracy:
+0.8646500897205844
+Precision:
+0.7197771587743732
+Recall:
+0.7002710027100271
+[[5454  503]
+ [ 553 1292]]
+              precision    recall  f1-score   support
+
+           0       0.91      0.92      0.91      5957
+           1       0.72      0.70      0.71      1845
+
+    accuracy                           0.86      7802
+   macro avg       0.81      0.81      0.81      7802
+weighted avg       0.86      0.86      0.86      7802
+
+========VALIDATION=========
+Accuracy:
+0.8645392797641933
+Precision:
+0.6983400114481969
+Recall:
+0.6971428571428572
+[[5526  527]
+ [ 530 1220]]
+              precision    recall  f1-score   support
+
+           0       0.91      0.91      0.91      6053
+           1       0.70      0.70      0.70      1750
+
+    accuracy                           0.86      7803
+   macro avg       0.81      0.81      0.81      7803
+weighted avg       0.86      0.86      0.86      7803

@@ -1,0 +1,80 @@
+========TRAIN=========
+Accuracy:
+0.9918918918918919
+Precision:
+0.9840425531914894
+Recall:
+1.0
+F-Measure:
+[0.99182561 0.9919571 ]
+[[728  12]
+ [  0 740]]
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99       740
+           1       0.98      1.00      0.99       740
+
+    accuracy                           0.99      1480
+   macro avg       0.99      0.99      0.99      1480
+weighted avg       0.99      0.99      0.99      1480
+
+========TEST=========
+Accuracy:
+0.9732620320855615
+Precision:
+0.375
+Recall:
+1.0
+F-Measure:
+[0.9862259  0.54545455]
+[[179   5]
+ [  0   3]]
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.99       184
+           1       0.38      1.00      0.55         3
+
+    accuracy                           0.97       187
+   macro avg       0.69      0.99      0.77       187
+weighted avg       0.99      0.97      0.98       187
+
+
+========TRAIN=========
+Accuracy:
+0.9928716904276986
+Precision:
+0.9859437751004017
+Recall:
+1.0
+F-Measure:
+[0.99282051 0.99292214]
+[[484   7]
+ [  0 491]]
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       491
+           1       0.99      1.00      0.99       491
+
+    accuracy                           0.99       982
+   macro avg       0.99      0.99      0.99       982
+weighted avg       0.99      0.99      0.99       982
+
+========TEST=========
+Accuracy:
+0.984
+Precision:
+0.2
+Recall:
+1.0
+F-Measure:
+[0.99190283 0.33333333]
+[[245   4]
+ [  0   1]]
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99       249
+           1       0.20      1.00      0.33         1
+
+    accuracy                           0.98       250
+   macro avg       0.60      0.99      0.66       250
+weighted avg       1.00      0.98      0.99       250

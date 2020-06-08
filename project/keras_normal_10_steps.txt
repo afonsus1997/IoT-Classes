@@ -1,0 +1,43 @@
+========TRAIN=========
+Accuracy:
+0.9918367346938776
+Precision:
+1.0
+Recall:
+0.5
+F-Measure:
+[0.99586777 0.66666667]
+[[482   0]
+ [  4   4]]
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00       482
+           1       1.00      0.50      0.67         8
+
+    accuracy                           0.99       490
+   macro avg       1.00      0.75      0.83       490
+weighted avg       0.99      0.99      0.99       490
+
+========TEST=========
+Accuracy:
+0.995850622406639
+Precision:
+F:\anaconda3\lib\site-packages\sklearn\metrics\_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+Recall:
+0.0
+F-Measure:
+[0.997921 0.      ]
+[[240   0]
+ [  1   0]]
+F:\anaconda3\lib\site-packages\sklearn\metrics\_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       240
+           1       0.00      0.00      0.00         1
+
+    accuracy                           1.00       241
+   macro avg       0.50      0.50      0.50       241
+weighted avg       0.99      1.00      0.99       241

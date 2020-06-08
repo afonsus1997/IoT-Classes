@@ -81,13 +81,13 @@ mlp = MLPClassifier(max_iter=300, verbose=1)
 hidden_layers_constructor = []
 hidden_layers = []
 # hidden_layers = [(10, 5), (100, 50), (50, 10, 2), (50, 25)]
-sum_test = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 30, 35, 40, 50, 100, 150, 200]
+sum_test = [2, 3]#, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 30, 35, 40, 50, 100, 150, 200]
 for i in range(len(sum_test)):
     hidden_layers_constructor += list(tuples_sum(1,sum_test[i],order=False))
 # print(hidden_layers_constructor)
 
 for i in range(len(hidden_layers_constructor)):
-    hidden_layers += [(39, 161, 18) + hidden_layers_constructor[i]]
+    hidden_layers += [(10, 161, 18, 7) + hidden_layers_constructor[i]]
 
 print(hidden_layers)
 
@@ -106,7 +106,7 @@ scorers = {
     'accuracy_score': make_scorer(accuracy_score)
 }
 skf = StratifiedKFold(n_splits=2)
-clf = GridSearchCV(mlp, parameter_space, n_jobs=4, cv=skf)
+clf = GridSearchCV(mlp, parameter_space, n_jobs=4, cv=skf, scoring=scorers, refit='accuracy_score', return_train_score=True)
 clf.fit(x_train, y_train)
 y_pred = clf.predict(x_train)
 
@@ -170,5 +170,5 @@ print(classification_report(y_test, pred_test))
 # plt.show()
 
 optimization_results = pd.DataFrame(clf.cv_results_)
-optimization_results = optimization_results.sort_values(by='rank_test_score', ascending=False)
+optimization_results = optimization_results.sort_values(by='mean_train_score', ascending=False)
 optimization_results.to_csv('F:\Documents\GitHub\IoT-Classes\lab5\optimization_results.csv', index = False, header=True)

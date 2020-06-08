@@ -1,0 +1,39 @@
+========TRAIN=========
+Accuracy:
+0.9979919678714859
+Precision:
+0.8888888888888888
+Recall:
+1.0
+F-Measure:
+[0.99897855 0.94117647]
+[[489   1]
+ [  0   8]]
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       490
+           1       0.89      1.00      0.94         8
+
+    accuracy                           1.00       498
+   macro avg       0.94      1.00      0.97       498
+weighted avg       1.00      1.00      1.00       498
+
+========TEST=========
+Accuracy:
+1.0
+Precision:
+1.0
+Recall:
+1.0
+F-Measure:
+[1. 1.]
+[[248   0]
+ [  0   1]]
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       248
+           1       1.00      1.00      1.00         1
+
+    accuracy                           1.00       249
+   macro avg       1.00      1.00      1.00       249
+weighted avg       1.00      1.00      1.00       249

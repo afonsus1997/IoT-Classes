@@ -1,0 +1,36 @@
+ {'activation': 'relu', 'learning_rate': 'constant', 'solver': 'adam', 'hidden_layer_sizes': (39, 161, 6), 'alpha': 0.05}
+========TRAIN=========
+Accuracy:
+0.9057780625867777
+Precision:
+0.8418958854285065
+Recall:
+0.7103673156229021
+[[34997  1391]
+ [ 3020  7407]]
+              precision    recall  f1-score   support
+
+           0       0.92      0.96      0.94     36388
+           1       0.84      0.71      0.77     10427
+
+    accuracy                           0.91     46815
+   macro avg       0.88      0.84      0.86     46815
+weighted avg       0.90      0.91      0.90     46815
+
+========TEST=========
+Accuracy:
+0.8634412047420699
+Precision:
+0.7477995937711578
+Recall:
+0.6144645340751043
+[[11265   745]
+ [ 1386  2209]]
+              precision    recall  f1-score   support
+
+           0       0.89      0.94      0.91     12010
+           1       0.75      0.61      0.67      3595
+
+    accuracy                           0.86     15605
+   macro avg       0.82      0.78      0.79     15605
+weighted avg       0.86      0.86      0.86     15605
