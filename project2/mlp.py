@@ -47,15 +47,15 @@ def runMLP(layersizes, features):
 
 
 
-    x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.5, shuffle=False)
+    x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.6, shuffle=False)
     x_test, (x_val), y_test, y_val = train_test_split(x_test, y_test, test_size=0.25, shuffle=False)
 
 
     # #oversampling
     oversample = RandomOverSampler(sampling_strategy='minority')
     x_train, y_train = oversample.fit_resample(x_train, y_train)
-    print(x_train.values)
-    print(y_train.values)
+    # print(x_train.values)
+    # print(y_train.values)
 
     #under and oversampling
     # over = RandomOverSampler(sampling_strategy=0.5)
