@@ -106,15 +106,15 @@ stats.register("min", numpy.min)
 stats.register("max", numpy.max)
 
 pop, logbook = algorithms.eaSimple(pop, toolbox, cxpb=0.5, mutpb=0.2, ngen=10, stats=stats, halloffame=hof, verbose=True)
-gen, avg, min_, max_ = log.select("gen", "avg", "min", "max")
+gen, avg, min_, max_ = logbook.select("gen", "avg", "min", "max")
 plt.plot(gen, avg, label="average")
 plt.plot(gen, min_, label="minimum")
 plt.plot(gen, max_, label="maximum")
 plt.xlabel("Generation")
 plt.ylabel("Fitness")
 plt.legend(loc="lower right")
-plt.show()
-
+# plt.show()
+plt.savefig('results.png')
 
 # ind = toolbox.individual()
 # print(ind)

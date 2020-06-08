@@ -52,10 +52,10 @@ def runMLP(layersizes, features):
 
 
     # #oversampling
-    # oversample = RandomOverSampler(sampling_strategy='minority')
-    # x_train, y_train = oversample.fit_resample(x_train, y_train)
-    # print(x_train.values)
-    # print(y_train.values)
+    oversample = RandomOverSampler(sampling_strategy='minority')
+    x_train, y_train = oversample.fit_resample(x_train, y_train)
+    print(x_train.values)
+    print(y_train.values)
 
     #under and oversampling
     # over = RandomOverSampler(sampling_strategy=0.5)
