@@ -64,7 +64,8 @@ def cxInds(ind1, ind2):
     indslayers = set({tuple(ind1['layersizes']), tuple(ind2['layersizes'])})
 
     ind1['input_features'] = [value for value in ind1_tmp if value in ind2_tmp]
-    ind2['input_features'] = [value for value in ind1_tmp if value not in ind2_tmp] + [value for value in ind2_tmp if value not in ind1_tmp]
+    ind2['input_features'] = [value for value in ind2_tmp if value in ind1_tmp]
+    # ind2['input_features'] = [value for value in ind1_tmp if value not in ind2_tmp] + [value for value in ind2_tmp if value not in ind1_tmp]
 
     ind1['layersizes'] = list(random.sample(indslayers, 1)[0])
     ind2['layersizes'] =  list(random.sample(indslayers, 1)[0])
