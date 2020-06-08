@@ -83,6 +83,13 @@ def mutInd(indin):
     for i in range(len(layers_to_change)):
         indin['layersizes'][layers_to_change[i]] = random.randint(1, maxneuron)
 
+    if(random.randint(0, 1)):
+        if(random.randint(0, 2)):
+            #add random layer
+            indin['layersizes'].append(random.randint(1, maxneuron))
+        elif(len(indin['layersizes']) > 1):
+            indin['layersizes'].pop(random.randint(0, len(indin['layersizes'])-1))
+
     return indin,
 
 
