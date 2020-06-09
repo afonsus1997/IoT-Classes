@@ -67,7 +67,7 @@ def evalOptions(individual):
 
 toolbox.register("evaluate", evalOptions)
 toolbox.register("mate", tools.cxTwoPoint)
-toolbox.register("mutate", tools.mutGaussian, indpb=0.15)
+toolbox.register("mutate", tools.mutShuffleIndexes, indpb=0.1)
 toolbox.register("select", tools.selTournament, tournsize=3)
 # toolbox.register("select", tools.selNSGA2)
 
@@ -75,7 +75,7 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 # ind2 = toolbox.individual()
 
 
-pop = toolbox.population(n=10)
+pop = toolbox.population(n=25)
 hof = tools.HallOfFame(1)
 stats = tools.Statistics(lambda ind: ind.fitness.values)
 stats.register("avg", np.mean)
