@@ -60,7 +60,8 @@ toolbox.register("population", tools.initRepeat, list, toolbox.individual)
 # quit()
 
 def evalOptions(individual):
-    return (runMLP(tuple(individual['layersizes']), individual['input_features']),)
+    individual_dict = decodeIndividual(individual)
+    return (runMLP(tuple(individual_dict['layersizes']), individual_dict['input_features']),)
 
 
 
