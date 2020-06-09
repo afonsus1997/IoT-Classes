@@ -1,7 +1,7 @@
 import operator
 import random
 
-import numpy
+import numpy as np
 import math
 import matplotlib.pyplot as plt
 
@@ -10,99 +10,68 @@ from mlp import runMLP
 
 # random.seed(41)
 maxlayers = 3
-maxneuron = 200
+nbit = 8
+maxneuron = 2**nbit # max 256 #must be a power of 2 because of the encoding
 
 possible_features = ['Requests', 'Requests1','Requests2', 'Load', 'High_requests']
 # possible_features_enum = {'Requests': 0, 'Requests1': 1,'Requests2': 2, 'Load': 3, 'High_requests': 4}
 
-
 creator.create("FitnessMax", base.Fitness, weights=(1.0,))
-creator.create("Individual", dict, fitness=creator.FitnessMax)
+creator.create("Individual", list, fitness=creator.FitnessMax)
 
-# featureenumlist = ['number_of_requests', 'number_of_requests1', 'number_of_requests']
+def createInd():
+    ind = []
+    for i in range(5):
+        ind.append(random.randint(0, 1)) #create bits for the features (ordered)
+    for i in range(random.randint(1, maxlayers)): #create n layers
+        for j in range(nbit):
+            ind.append(random.randint(0, 1)) #create numer of neurons per layer
+    return ind
 
-def createAndEncodeIndividual():
+
+def decodeIndividual(ind):
     outdict = {}
     outdict['layersizes'] = []
     outdict['input_features'] = []
 
-    for i in range(random.randint(1, maxlayers)):
-        outdict['layersizes'].append(random.randint(1, maxneuron))
+    for i in range(5):
+        if(ind[i]):
+            outdict['input_features'].append(possible_features[i])
 
-    tmpfeatures = set(possible_features)
-    outdict['input_features'] = random.sample(tmpfeatures, random.randint(1, 5))
-
-    #other parameters to be encoded here
+    ind_layers = ind[5:]
+    layerslst = [ind_layers[i:i + 8] for i in range(0, len(ind_layers), 8)]
+    for i in range(len(layerslst)):
+        outdict['layersizes'].append(int(''.join(map(str, layerslst[i])), 2))
 
     return outdict
 
-
-
-
 toolbox = base.Toolbox()
-# toolbox.register("rng_layers", random.randint, 1, maxneuron)
-# toolbox.register("rng_nlayers", random.randint, 1, maxlayers)
-# toolbox.register("create_layers", tools.initRepeat, list, toolbox.rng_layers, n=toolbox.rng_nlayers())
-# toolbox.register("indInitializer", createAndEncodeIndividual, toolbox.create_layers())
-# toolbox.register("individual", creator.Individual, toolbox.indInitializer())
-# toolbox.register("population", tools.initRepeat, list, toolbox.individual)
 
 
-toolbox.register("indInitializer", createAndEncodeIndividual)
+
+toolbox.register("indInitializer", createInd)
 toolbox.register("individual", creator.Individual, toolbox.indInitializer())
 toolbox.register("population", tools.initRepeat, list, toolbox.individual)
 
-
+# pop = toolbox.population(n=5)
+# print(pop)
+# for i in range(len(pop)):
+#     print(decodeIndividual(pop[i]))
+# quit()
 
 def evalOptions(individual):
     return (runMLP(tuple(individual['layersizes']), individual['input_features']),)
 
-def cxInds(ind1, ind2):
-    ind1_tmp = ind1['input_features']
-    ind2_tmp = ind2['input_features']
-
-    indslayers = set({tuple(ind1['layersizes']), tuple(ind2['layersizes'])})
-
-    ind1['input_features'] = [value for value in ind1_tmp if value in ind2_tmp]
-    ind2['input_features'] = [value for value in ind2_tmp if value in ind1_tmp]
-    # ind2['input_features'] = [value for value in ind1_tmp if value not in ind2_tmp] + [value for value in ind2_tmp if value not in ind1_tmp]
-
-    ind1['layersizes'] = list(random.sample(indslayers, 1)[0])
-    ind2['layersizes'] =  list(random.sample(indslayers, 1)[0])
-
-    return ind1, ind2
-
-def mutInd(indin):
-    #possible mutations: remove/add feature randomize layers?
-
-    number_of_layers = len(indin['layersizes'])
-    possible_layers = set(range(0, number_of_layers))
-    # print(possible_layers)
-    layers_to_change = random.sample(possible_layers, random.randint(1, len(possible_layers)))
-    # print(layers_to_change)
-    for i in range(len(layers_to_change)):
-        indin['layersizes'][layers_to_change[i]] = random.randint(1, maxneuron)
-
-    if(random.randint(0, 1)):
-        if(random.randint(0, 2)):
-            #add random layer
-            indin['layersizes'].append(random.randint(1, maxneuron))
-        elif(len(indin['layersizes']) > 1):
-            indin['layersizes'].pop(random.randint(0, len(indin['layersizes'])-1))
-
-    return indin,
 
 
 toolbox.register("evaluate", evalOptions)
-toolbox.register("mate", cxInds)
-toolbox.register("mutate", mutInd)
+# toolbox.register("mate", cxInds)
+# toolbox.register("mutate", mutInd)
 toolbox.register("select", tools.selNSGA2)
 # toolbox.register("select", tools.selTournament, tournsize=3)
 
 # ind1 = toolbox.individual()
 # ind2 = toolbox.individual()
-#
-# print(cxInds(ind1, ind2))
 
 
 pop = toolbox.population(n=10)
