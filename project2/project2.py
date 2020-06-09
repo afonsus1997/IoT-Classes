@@ -70,7 +70,6 @@ toolbox.register("mate", tools.cxTwoPoint)
 toolbox.register("mutate", tools.mutGaussian, indpb=0.15)
 toolbox.register("select", tools.selTournament, tournsize=3)
 # toolbox.register("select", tools.selNSGA2)
-toolbox.register("select", tools.selTournament, tournsize=3)
 
 # ind1 = toolbox.individual()
 # ind2 = toolbox.individual()
