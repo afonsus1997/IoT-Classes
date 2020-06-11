@@ -80,7 +80,7 @@ def evalOptions(individual):
 
 
 toolbox.register("evaluate", evalOptions)
-toolbox.register("mate", tools.cxPartialyMatched)
+toolbox.register("mate", tools.cxUniformPartialyMatched, indpb=0.1)
 toolbox.register("mutate", tools.mutShuffleIndexes, indpb=0.1)
 toolbox.register("select", tools.selTournament, tournsize=3)
 # toolbox.register("select", tools.selNSGA2)
