@@ -54,7 +54,7 @@ def createInd():
         ind = []
         for i in range(5):
             ind.append(toolbox.rng_bit()) #create bits for the features (ordered)
-        for i in range(toolbox.rng_nlayers()): #create n layers
+        for i in range(3): #create n layers toolbox.rng_nlayers()
             for j in range(nbit):
                 ind.append(toolbox.rng_bit()) #create numer of neurons per layer
         if checkInd(ind):
