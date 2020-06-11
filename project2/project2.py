@@ -23,18 +23,6 @@ toolbox = base.Toolbox()
 toolbox.register("rng_bit", random.randint, 0, 1)
 toolbox.register("rng_nlayers", random.randint, 1, maxlayers)
 
-
-
-def createInd():
-    ind = []
-    for i in range(5):
-        ind.append(toolbox.rng_bit()) #create bits for the features (ordered)
-    for i in range(toolbox.rng_nlayers()): #create n layers
-        for j in range(nbit):
-            ind.append(toolbox.rng_bit()) #create numer of neurons per layer
-    return ind
-
-
 def decodeIndividual(ind):
     outdict = {}
     outdict['layersizes'] = []
@@ -51,6 +39,31 @@ def decodeIndividual(ind):
 
     return outdict
 
+def checkInd(ind):
+    inddic = decodeIndividual(ind)
+    if(inddic["input_features"] == []):
+        return False
+    elif 0 in set(inddic['layersizes']):
+        return False
+    else:
+        return True
+
+
+def createInd():
+    while(True):
+        ind = []
+        for i in range(5):
+            ind.append(toolbox.rng_bit()) #create bits for the features (ordered)
+        for i in range(toolbox.rng_nlayers()): #create n layers
+            for j in range(nbit):
+                ind.append(toolbox.rng_bit()) #create numer of neurons per layer
+        if checkInd(ind):
+            break
+    return ind
+
+
+
+
 
 toolbox.register("indInitializer", createInd)
 toolbox.register("individual", tools.initRepeat, creator.Individual, toolbox.indInitializer, 1)
@@ -66,10 +79,7 @@ toolbox.register("population", tools.initRepeat, list, toolbox.individual)
 
 def evalOptions(individual):
     individual_dict = decodeIndividual(individual[0])
-    if(individual_dict['input_features'] == []):
-        return 0
-    else:
-        return (runMLP(tuple(individual_dict['layersizes']), individual_dict['input_features']),)
+    return (runMLP(tuple(individual_dict['layersizes']), individual_dict['input_features']),)
 
 
 
