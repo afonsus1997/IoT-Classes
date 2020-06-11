@@ -91,7 +91,7 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 
 pop = toolbox.population(n=50)
 for i in range(len(pop)):
-    print(decodeIndividual(pop[i]))
+    print(decodeIndividual(pop[i][0]))
 hof = tools.HallOfFame(1)
 stats = tools.Statistics(lambda ind: ind.fitness.values)
 stats.register("avg", np.mean)
