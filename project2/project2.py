@@ -80,7 +80,7 @@ def evalOptions(individual):
 
 
 toolbox.register("evaluate", evalOptions)
-toolbox.register("mate", tools.cxUniformPartialyMatched, indpb=0.1)
+toolbox.register("mate", tools.cxUniform, indpb=0.1)
 toolbox.register("mutate", tools.mutShuffleIndexes, indpb=0.1)
 toolbox.register("select", tools.selTournament, tournsize=3)
 # toolbox.register("select", tools.selNSGA2)
@@ -89,16 +89,17 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 # ind2 = toolbox.individual()
 
 
-pop = toolbox.population(n=50)
+pop = toolbox.population(n=52)
 for i in range(len(pop)):
     print(decodeIndividual(pop[i][0]))
 hof = tools.HallOfFame(1)
 stats = tools.Statistics(lambda ind: ind.fitness.values)
 stats.register("avg", np.mean)
+stats.register("std", np.std)
 stats.register("min", np.min)
 stats.register("max", np.max)
 
-pop, logbook = algorithms.eaSimple(pop, toolbox, cxpb=0.5, mutpb=0.2, ngen=10, stats=stats, halloffame=hof, verbose=True)
+pop, logbook = algorithms.eaSimple(pop, toolbox, cxpb=0.5, mutpb=0.2, ngen=40, stats=stats, halloffame=hof, verbose=True)
 gen, avg, min_, max_ = logbook.select("gen", "avg", "min", "max")
 plt.plot(gen, avg, label="average")
 plt.plot(gen, min_, label="minimum")
