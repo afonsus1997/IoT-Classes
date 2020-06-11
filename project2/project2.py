@@ -19,13 +19,19 @@ possible_features = ['Requests', 'Requests1','Requests2', 'Load', 'High_requests
 creator.create("FitnessMax", base.Fitness, weights=(1.0,))
 creator.create("Individual", list, fitness=creator.FitnessMax)
 
+toolbox = base.Toolbox()
+toolbox.register("rng_bit", random.randint, 0, 1)
+toolbox.register("rng_nlayers", random.randint, 1, maxlayers)
+
+func_seq = [toolbox.rng_features]
+
 def createInd():
     ind = []
     for i in range(5):
-        ind.append(random.randint(0, 1)) #create bits for the features (ordered)
-    for i in range(random.randint(1, maxlayers)): #create n layers
+        ind.append(toolbox.rng_bit()) #create bits for the features (ordered)
+    for i in range(toolbox.rng_nlayers()): #create n layers
         for j in range(nbit):
-            ind.append(random.randint(0, 1)) #create numer of neurons per layer
+            ind.append(toolbox.rng_bit()) #create numer of neurons per layer
     return ind
 
 
@@ -45,13 +51,12 @@ def decodeIndividual(ind):
 
     return outdict
 
-toolbox = base.Toolbox()
-
-
 
 toolbox.register("indInitializer", createInd)
-toolbox.register("individual", creator.Individual, toolbox.indInitializer())
+toolbox.register("individual", tools.initRepeat, creator.Individual, toolbox.indInitializer, 1)
 toolbox.register("population", tools.initRepeat, list, toolbox.individual)
+
+
 
 # pop = toolbox.population(n=5)
 # print(pop)
@@ -60,7 +65,7 @@ toolbox.register("population", tools.initRepeat, list, toolbox.individual)
 # quit()
 
 def evalOptions(individual):
-    individual_dict = decodeIndividual(individual)
+    individual_dict = decodeIndividual(individual[0])
     return (runMLP(tuple(individual_dict['layersizes']), individual_dict['input_features']),)
 
 
@@ -75,7 +80,8 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 # ind2 = toolbox.individual()
 
 
-pop = toolbox.population(n=25)
+pop = toolbox.population(n=50)
+print(pop)
 hof = tools.HallOfFame(1)
 stats = tools.Statistics(lambda ind: ind.fitness.values)
 stats.register("avg", np.mean)
