@@ -9,7 +9,7 @@ from deap import base, creator, tools, algorithms, benchmarks
 from mlp import runMLP
 
 # random.seed(41)
-maxlayers = 3
+maxlayers = 4
 nbit = 8
 maxneuron = 2**nbit # max 256 #must be a power of 2 because of the encoding
 
@@ -80,7 +80,7 @@ def evalOptions(individual):
 
 
 toolbox.register("evaluate", evalOptions)
-toolbox.register("mate", tools.cxTwoPoint)
+toolbox.register("mate", tools.cxPartialyMatched)
 toolbox.register("mutate", tools.mutShuffleIndexes, indpb=0.1)
 toolbox.register("select", tools.selTournament, tournsize=3)
 # toolbox.register("select", tools.selNSGA2)
@@ -89,7 +89,7 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 # ind2 = toolbox.individual()
 
 
-pop = toolbox.population(n=50)
+pop = toolbox.population(n=3)
 for i in range(len(pop)):
     print(decodeIndividual(pop[i][0]))
 hof = tools.HallOfFame(1)
