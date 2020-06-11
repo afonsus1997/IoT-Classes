@@ -23,7 +23,7 @@ toolbox = base.Toolbox()
 toolbox.register("rng_bit", random.randint, 0, 1)
 toolbox.register("rng_nlayers", random.randint, 1, maxlayers)
 
-func_seq = [toolbox.rng_features]
+
 
 def createInd():
     ind = []
