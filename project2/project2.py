@@ -71,11 +71,7 @@ toolbox.register("population", tools.initRepeat, list, toolbox.individual)
 
 
 
-# pop = toolbox.population(n=5)
-# print(pop)
-# for i in range(len(pop)):
-#     print(decodeIndividual(pop[i]))
-# quit()
+
 
 def evalOptions(individual):
     individual_dict = decodeIndividual(individual[0])
@@ -94,7 +90,8 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 
 
 pop = toolbox.population(n=50)
-print(pop)
+for i in range(len(pop)):
+    print(decodeIndividual(pop[i]))
 hof = tools.HallOfFame(1)
 stats = tools.Statistics(lambda ind: ind.fitness.values)
 stats.register("avg", np.mean)
