@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 from deap import base, creator, tools, algorithms, benchmarks
 from mlp import runMLP
 from fixed_crossover import*
+from fixed_mutation import*
 
 # random.seed(41)
 maxlayers = 3
@@ -82,7 +83,7 @@ def evalOptions(individual):
 
 toolbox.register("evaluate", evalOptions)
 toolbox.register("mate", cxTwoPointfix)
-toolbox.register("mutate", tools.mutFlipBit, indpb=0.05)
+toolbox.register("mutate", mutFlipBitfix, indpb=0.05)
 toolbox.register("select", tools.selTournament, tournsize=3)
 # toolbox.register("select", tools.selNSGA2)
 
@@ -94,7 +95,6 @@ pop = toolbox.population(n=100)
 for i in range(len(pop)):
     print(decodeIndividual(pop[i][0]))
 
-pop = toolbox.population(n=10)
 hof = tools.HallOfFame(1)
 stats = tools.Statistics(lambda ind: ind.fitness.values)
 stats.register("avg", np.mean)
