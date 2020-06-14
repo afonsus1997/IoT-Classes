@@ -29,7 +29,9 @@ def runMLP(layersizes, features):
     print(layersizes)
     print(features)
 
-    device_data = pd.read_csv('Lab6-7-8_IoTGatewayCrash.csv', decimal='.')
+    # device_data = pd.read_csv('Lab6-7-8_IoTGatewayCrash.csv', decimal='.')
+    device_data = pd.read_csv('Proj2_IoTGatewayCrash_2.csv', decimal='.')
+
 
     #shifted data
     device_data['Requests1'] = device_data.Requests.shift(1)
@@ -54,7 +56,7 @@ def runMLP(layersizes, features):
 
 
 
-    x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.5, shuffle=False)
+    x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.45, shuffle=False)
     # x_test, (x_val), y_test, y_val = train_test_split(x_test, y_test, test_size=0.25, shuffle=False)
 
 
@@ -89,26 +91,24 @@ def runMLP(layersizes, features):
     train_accuracy = accuracy_score(y_train, pred_train)
     train_precision = precision_score(y_train, pred_train)
     train_recall = recall_score(y_train, pred_train)
-    train_FM = float(2 * train_precision * train_recall) / (train_precision + train_recall)
-
-    # cm = confusion_matrix(y_train, pred_train)
-    # print(cm)
+    # train_FM = float(2 * train_precision * train_recall) / (train_precision + train_recall)
+    train_FM = f1_score(y_train, pred_train)
+    cm = confusion_matrix(y_train, pred_train)
+    print(cm)
     # print(classification_report(y_train, pred_train))
 
     test_accuracy = accuracy_score(y_test, pred_test)
     test_precision = precision_score(y_test, pred_test)
     test_recall = recall_score(y_test, pred_test)
-    test_FM = float(2 * test_precision * test_recall) / (test_precision + test_recall)
-
+    # test_FM = float(2 * test_precision * test_recall) / (test_precision + test_recall)
+    test_FM = f1_score(y_test, pred_test)
     print("Train F-Measure:")
     print(train_FM)
     print("Test F-Measure:")
     print(test_FM)
 
-
-    # cm = confusion_matrix(y_test, pred_test)
-    # print(cm)
-    # print(classification_report(y_test, pred_test))
+    cm = confusion_matrix(y_test, pred_test)
+    print(cm)
 
     # print("========VALIDATION=========")
     # print("Accuracy:")
