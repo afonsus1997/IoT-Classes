@@ -10,11 +10,11 @@ from mlp import runMLP
 from fixed_crossover import*
 
 # random.seed(41)
-maxlayers = 4
+maxlayers = 3
 nbit = 8
 maxneuron = 2**nbit # max 256 #must be a power of 2 because of the encoding
 
-possible_features = ['Requests', 'Requests1','Requests2', 'Load', 'High_requests']
+possible_features = ['Requests', 'Requests1','Requests2', 'Load', 'High_requests', 'High_load', 'High_features']
 # possible_features_enum = {'Requests': 0, 'Requests1': 1,'Requests2': 2, 'Load': 3, 'High_requests': 4}
 
 creator.create("FitnessMax", base.Fitness, weights=(1.0,))
@@ -29,11 +29,11 @@ def decodeIndividual(ind):
     outdict['layersizes'] = []
     outdict['input_features'] = []
 
-    for i in range(5):
+    for i in range(7):
         if(ind[i]):
             outdict['input_features'].append(possible_features[i])
 
-    ind_layers = ind[5:]
+    ind_layers = ind[7:]
     layerslst = [ind_layers[i:i + 8] for i in range(0, len(ind_layers), 8)]
     for i in range(len(layerslst)):
         outdict['layersizes'].append(int(''.join(map(str, layerslst[i])), 2))
@@ -53,7 +53,7 @@ def checkInd(ind):
 def createInd():
     while(True):
         ind = []
-        for i in range(5):
+        for i in range(7):
             ind.append(toolbox.rng_bit()) #create bits for the features (ordered)
         for i in range(toolbox.rng_nlayers()): #create n layers
             for j in range(nbit):

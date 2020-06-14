@@ -21,6 +21,9 @@ from imblearn.over_sampling import RandomOverSampler
 from imblearn.under_sampling import RandomUnderSampler
 import math
 
+pd.set_option('display.max_rows', 50)
+
+
 def runMLP(layersizes, features):
     print("\n\n")
     print(layersizes)
@@ -35,7 +38,11 @@ def runMLP(layersizes, features):
     # print(device_data)
 
     device_data['High_requests'] = numpy.where(device_data['Requests']>=0.2, 1, 0)
-    # device_data['High_load'] = numpy.where(device_data['Load']>=0.53, 1, 0)
+    device_data['High_load'] = numpy.where(device_data['Load']>=0.53, 1, 0)
+    device_data.loc[(device_data['High_requests'] == 1) & (device_data['High_load'] == 1), 'High_features'] = 1
+    device_data.fillna(0, inplace=True)
+    # print(device_data)
+    # device_data.to_csv('high_test.csv')
 
     #normal test
     cols = features
@@ -48,7 +55,7 @@ def runMLP(layersizes, features):
 
 
     x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.5, shuffle=False)
-    x_test, (x_val), y_test, y_val = train_test_split(x_test, y_test, test_size=0.25, shuffle=False)
+    # x_test, (x_val), y_test, y_val = train_test_split(x_test, y_test, test_size=0.25, shuffle=False)
 
 
     # #oversampling
@@ -75,7 +82,7 @@ def runMLP(layersizes, features):
 
     pred_train = mlp.predict(x_train)
     pred_test = mlp.predict(x_test)
-    pred_val = mlp.predict(x_val)
+    # pred_val = mlp.predict(x_val)
 
 
 
