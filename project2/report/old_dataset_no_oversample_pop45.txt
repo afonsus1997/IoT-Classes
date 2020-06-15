@@ -1,0 +1,30 @@
+number 1:
+{'input_features': ['Load', 'High_features', 'Load_mm'], 'layersizes': [58, 165, 108]}
+Validation run:
+
+
+
+(58, 165, 108)
+['Load', 'High_features', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[538   2]
+ [  2   6]]
+Train F-Measure:
+0.75
+Test F-Measure:
+0.8
+[[288   1]
+ [  0   2]]
+Validation F-Measure:
+0.6666666666666666
+[[156   0]
+ [  1   1]]
+Validation F-Measure:
+0.6666666666666666
+[[156   0]
+ [  1   1]]
+
+real    60m17.878s
+user    172m1.168s
+sys     270m46.632s
