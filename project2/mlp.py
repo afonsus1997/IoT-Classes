@@ -61,7 +61,7 @@ def runMLP(layersizes, features):
 
 
     x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.45, shuffle=False)
-    # x_test, (x_val), y_test, y_val = train_test_split(x_test, y_test, test_size=0.25, shuffle=False)
+    x_test, (x_val), y_test, y_val = train_test_split(x_test, y_test, test_size=0.25, shuffle=False)
 
 
     # #oversampling
@@ -127,6 +127,7 @@ def runMLP(layersizes, features):
     # print(classification_report(y_val, pred_val))
     # print("F-Measure:")
     # print(f1_score(y_test, pred_test, average=None))
+    
     if(math.isnan(test_FM)):
         return 0
     else:
