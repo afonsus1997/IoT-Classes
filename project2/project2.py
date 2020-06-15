@@ -80,7 +80,7 @@ def evalOptions(individual):
     if(checkInd(individual[0]) == False):
         return 0
     else:
-        return (runMLP(tuple(individual_dict['layersizes']), individual_dict['input_features']),)
+        return (runMLP(tuple(individual_dict['layersizes']), individual_dict['input_features'], False),)
 
 
 
@@ -106,6 +106,10 @@ stats.register("max", np.max)
 
 pop, logbook = algorithms.eaSimple(pop, toolbox, cxpb=0.5, mutpb=0.2, ngen=10, stats=stats, halloffame=hof, verbose=True)
 gen, avg, min_, max_ = logbook.select("gen", "avg", "min", "max")
+for i in range(len(hof)):
+    print("number " + str(1) + ":")
+    print(decodeIndividual(hof[i][0]))
+
 plt.plot(gen, avg, label="average")
 plt.plot(gen, min_, label="minimum")
 plt.plot(gen, max_, label="maximum")
@@ -114,6 +118,11 @@ plt.ylabel("Fitness")
 plt.legend(loc="lower right")
 # plt.show()
 plt.savefig('results.png')
+
+
+print("Validation run:")
+val_dict = decodeIndividual(hof[0][0])
+fval = runMLP(tuple(val_dict['layersizes']), val_dict['input_features'], True)
 
 # ind = toolbox.individual()
 # print(ind)

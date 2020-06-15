@@ -24,7 +24,7 @@ import math
 pd.set_option('display.max_rows', 50)
 
 
-def runMLP(layersizes, features):
+def runMLP(layersizes, features, validation):
     print("\n\n")
     print(layersizes)
     print(features)
@@ -88,7 +88,7 @@ def runMLP(layersizes, features):
 
     pred_train = mlp.predict(x_train)
     pred_test = mlp.predict(x_test)
-    # pred_val = mlp.predict(x_val)
+    pred_val = mlp.predict(x_val)
 
 
 
@@ -122,14 +122,22 @@ def runMLP(layersizes, features):
     # print("Recall:")
     # print(recall_score(y_val, pred_val))
 
-    # cm = confusion_matrix(y_val, pred_val)
+    cm = confusion_matrix(y_val, pred_val)
     # print(cm)
     # print(classification_report(y_val, pred_val))
-    # print("F-Measure:")
-    # print(f1_score(y_test, pred_test, average=None))
-    
-    if(math.isnan(test_FM)):
-        return 0
+    val_FM = f1_score(y_val, pred_val)
+
+    if(validation == False):
+        if(math.isnan(test_FM)):
+            return 0
+        else:
+            return test_FM
     else:
-        return test_FM
+        if (math.isnan(val_FM)):
+            return 0
+        else:
+            print("Validation F-Measure:")
+            print(val_FM)
+            print(cm)
+            return val_FM
 
