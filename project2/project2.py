@@ -94,7 +94,7 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 # ind2 = toolbox.individual()
 
 
-pop = toolbox.population(n=100)
+pop = toolbox.population(n=10)
 for i in range(len(pop)):
     print(decodeIndividual(pop[i][0]))
 

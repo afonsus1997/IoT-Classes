@@ -64,7 +64,7 @@ def cxTwoPointsfix(ind1, ind2):
     """
     warnings.warn("tools.cxTwoPoints has been renamed. Use cxTwoPoint instead.",
                   FutureWarning)
-    return cxTwoPoint(ind1, ind2)
+    return cxTwoPointfix(ind1, ind2)
 
 
 def cxUniformfix(ind1, ind2, indpb):
