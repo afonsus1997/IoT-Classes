@@ -127,6 +127,10 @@ def runMLP(layersizes, features, validation):
     # print(classification_report(y_val, pred_val))
     val_FM = f1_score(y_val, pred_val)
 
+    print("Validation F-Measure:")
+    print(val_FM)
+    print(cm)
+
     if(validation == False):
         if(math.isnan(test_FM)):
             return 0
