@@ -29,8 +29,8 @@ def runMLP(layersizes, features):
     print(layersizes)
     print(features)
 
-    # device_data = pd.read_csv('Lab6-7-8_IoTGatewayCrash.csv', decimal='.')
-    device_data = pd.read_csv('Proj2_IoTGatewayCrash_2.csv', decimal='.')
+    device_data = pd.read_csv('Lab6-7-8_IoTGatewayCrash.csv', decimal='.')
+    # device_data = pd.read_csv('Proj2_IoTGatewayCrash_2.csv', decimal='.')
 
 
     #shifted data
@@ -42,7 +42,11 @@ def runMLP(layersizes, features):
     device_data['High_requests'] = numpy.where(device_data['Requests']>=0.2, 1, 0)
     device_data['High_load'] = numpy.where(device_data['Load']>=0.53, 1, 0)
     device_data.loc[(device_data['High_requests'] == 1) & (device_data['High_load'] == 1), 'High_features'] = 1
+
+    device_data['Requests_mm'] = device_data['Requests'].rolling(10, win_type='triang').sum()
+    device_data['Load_mm'] = device_data['Load'].rolling(10, win_type='triang').sum()
     device_data.fillna(0, inplace=True)
+
     # print(device_data)
     # device_data.to_csv('high_test.csv')
 
@@ -61,8 +65,8 @@ def runMLP(layersizes, features):
 
 
     # #oversampling
-    oversample = RandomOverSampler(sampling_strategy='minority')
-    x_train, y_train = oversample.fit_resample(x_train, y_train)
+    # oversample = RandomOverSampler(sampling_strategy='minority')
+    # x_train, y_train = oversample.fit_resample(x_train, y_train)
     # print(x_train.values)
     # print(y_train.values)
 
