@@ -77,7 +77,10 @@ toolbox.register("population", tools.initRepeat, list, toolbox.individual)
 
 def evalOptions(individual):
     individual_dict = decodeIndividual(individual[0])
-    return (runMLP(tuple(individual_dict['layersizes']), individual_dict['input_features']),)
+    if(checkInd(ind) == False):
+        return 0
+    else:
+        return (runMLP(tuple(individual_dict['layersizes']), individual_dict['input_features']),)
 
 
 
@@ -91,7 +94,7 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 # ind2 = toolbox.individual()
 
 
-pop = toolbox.population(n=300)
+pop = toolbox.population(n=100)
 for i in range(len(pop)):
     print(decodeIndividual(pop[i][0]))
 
