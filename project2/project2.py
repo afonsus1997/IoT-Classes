@@ -84,7 +84,7 @@ def evalOptions(individual):
         return (0,)
     else:
         fitness = runMLP(tuple(individual_dict['layersizes']), individual_dict['input_features'], False)
-        hofind.append(individual)
+        hofind.append(individual_dict)
         hofit.append(fitness)
         return (fitness,)
 
@@ -100,11 +100,11 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 # ind2 = toolbox.individual()
 
 
-pop = toolbox.population(n=45)
+pop = toolbox.population(n=3)
 for i in range(len(pop)):
     print(decodeIndividual(pop[i][0]))
 
-hof = tools.HallOfFame(3)
+hof = tools.HallOfFame(1)
 stats = tools.Statistics(lambda ind: ind.fitness.values)
 stats.register("avg", np.mean)
 stats.register("min", np.min)
@@ -128,7 +128,8 @@ plt.savefig('results.png')
 
 bestind = hofind[hofit.index(max(hofit))][0]
 print("Best ind:")
-print(decodeIndividual(bestind))
+print(bestind)
+print("Fitness: " + str(max(hofit)))
 print("Validation run:")
 
 fval = runMLP(tuple(bestind['layersizes']), bestind['input_features'], True)
