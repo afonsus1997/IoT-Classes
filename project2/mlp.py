@@ -61,7 +61,7 @@ def runMLP(layersizes, features, validation):
 
 
     x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.45, shuffle=False)
-    x_test, (x_val), y_test, y_val = train_test_split(x_test, y_test, test_size=0.35, shuffle=False)
+    x_test, (x_val), y_test, y_val = train_test_split(x_test, y_test, test_size=0.4, shuffle=False)
 
 
     # #oversampling
