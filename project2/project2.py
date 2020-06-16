@@ -100,7 +100,7 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 # ind2 = toolbox.individual()
 
 
-pop = toolbox.population(n=3)
+pop = toolbox.population(n=50)
 for i in range(len(pop)):
     print(decodeIndividual(pop[i][0]))
 
@@ -126,12 +126,13 @@ plt.legend(loc="lower right")
 # plt.show()
 plt.savefig('results.png')
 
-bestind = hofind[hofit.index(max(hofit))][0]
+# print(hofind)
+# print(hofit)
+bestind = hofind[hofit.index(max(hofit))]
 print("Best ind:")
 print(bestind)
 print("Fitness: " + str(max(hofit)))
 print("Validation run:")
-
 fval = runMLP(tuple(bestind['layersizes']), bestind['input_features'], True)
 
 # ind = toolbox.individual()
