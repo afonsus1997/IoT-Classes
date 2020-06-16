@@ -1,0 +1,24 @@
+number 1:
+{'layersizes': [194, 88], 'input_features': ['High_requests', 'High_features']}
+Validation run:
+
+
+
+(194, 88)
+['High_requests', 'High_features']
+[[538   2]
+ [141 399]]
+Train F-Measure:
+0.8480340063761955
+Test F-Measure:
+0.8
+[[288   1]
+ [  0   2]]
+Validation F-Measure:
+0.6666666666666666
+[[156   0]
+ [  1   1]]
+Validation F-Measure:
+0.6666666666666666
+[[156   0]
+ [  1   1]]

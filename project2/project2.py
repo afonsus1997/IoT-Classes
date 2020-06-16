@@ -10,6 +10,9 @@ from mlp import runMLP
 from fixed_crossover import*
 from fixed_mutation import*
 
+hofind = []
+hofit = []
+
 # random.seed(41)
 maxlayers = 3
 nbit = 8
@@ -80,7 +83,10 @@ def evalOptions(individual):
     if(checkInd(individual[0]) == False):
         return (0,)
     else:
-        return (runMLP(tuple(individual_dict['layersizes']), individual_dict['input_features'], False),)
+        fitness = runMLP(tuple(individual_dict['layersizes']), individual_dict['input_features'], False)
+        hofind.append(individual)
+        hofit.append(fitness)
+        return (fitness,)
 
 
 
@@ -94,11 +100,11 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 # ind2 = toolbox.individual()
 
 
-pop = toolbox.population(n=50)
+pop = toolbox.population(n=45)
 for i in range(len(pop)):
     print(decodeIndividual(pop[i][0]))
 
-hof = tools.HallOfFame(1)
+hof = tools.HallOfFame(3)
 stats = tools.Statistics(lambda ind: ind.fitness.values)
 stats.register("avg", np.mean)
 stats.register("min", np.min)
@@ -106,9 +112,10 @@ stats.register("max", np.max)
 
 pop, logbook = algorithms.eaSimple(pop, toolbox, cxpb=0.5, mutpb=0.2, ngen=10, stats=stats, halloffame=hof, verbose=True)
 gen, avg, min_, max_ = logbook.select("gen", "avg", "min", "max")
-for i in range(len(hof)):
-    print("number " + str(1) + ":")
-    print(decodeIndividual(hof[i][0]))
+# print(hof)
+# for i in range(len(hof)):
+#     print("number " + str(i) + ":")
+#     print(decodeIndividual(hof[i][0]))
 
 plt.plot(gen, avg, label="average")
 plt.plot(gen, min_, label="minimum")
@@ -119,10 +126,12 @@ plt.legend(loc="lower right")
 # plt.show()
 plt.savefig('results.png')
 
-
+bestind = hofind[hofit.index(max(hofit))][0]
+print("Best ind:")
+print(decodeIndividual(bestind))
 print("Validation run:")
-val_dict = decodeIndividual(hof[0][0])
-fval = runMLP(tuple(val_dict['layersizes']), val_dict['input_features'], True)
+
+fval = runMLP(tuple(bestind['layersizes']), bestind['input_features'], True)
 
 # ind = toolbox.individual()
 # print(ind)
