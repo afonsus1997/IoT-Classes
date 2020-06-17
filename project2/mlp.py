@@ -29,8 +29,8 @@ def runMLP(layersizes, features, validation):
     print(layersizes)
     print(features)
 
-    # device_data = pd.read_csv('Lab6-7-8_IoTGatewayCrash.csv', decimal='.')
-    device_data = pd.read_csv('Proj2_IoTGatewayCrash_2.csv', decimal='.')
+    device_data = pd.read_csv('Lab6-7-8_IoTGatewayCrash.csv', decimal='.')
+    # device_data = pd.read_csv('Proj2_IoTGatewayCrash_2.csv', decimal='.')
 
 
     #shifted data
@@ -60,8 +60,8 @@ def runMLP(layersizes, features, validation):
 
 
 
-    x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.35, shuffle=False)
-    x_test, (x_val), y_test, y_val = train_test_split(x_test, y_test, test_size=0.4, shuffle=False)
+    x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.5, shuffle=False)
+    # x_test, (x_val), y_test, y_val = train_test_split(x_test, y_test, test_size=0.5, shuffle=False)
 
 
     # #oversampling
@@ -88,7 +88,7 @@ def runMLP(layersizes, features, validation):
 
     pred_train = mlp.predict(x_train)
     pred_test = mlp.predict(x_test)
-    pred_val = mlp.predict(x_val)
+    # pred_val = mlp.predict(x_val)
 
 
 
@@ -122,26 +122,30 @@ def runMLP(layersizes, features, validation):
     # print("Recall:")
     # print(recall_score(y_val, pred_val))
 
-    cm = confusion_matrix(y_val, pred_val)
+    # cm = confusion_matrix(y_val, pred_val)
+    # # print(cm)
+    # # print(classification_report(y_val, pred_val))
+    # val_FM = f1_score(y_val, pred_val)
+    #
+    # print("Validation F-Measure:")
+    # print(val_FM)
     # print(cm)
-    # print(classification_report(y_val, pred_val))
-    val_FM = f1_score(y_val, pred_val)
 
-    print("Validation F-Measure:")
-    print(val_FM)
-    print(cm)
+    # if(validation == False):
+    #     if(math.isnan(test_FM)):
+    #         return 0
+    #     else:
+    #         return test_FM
+    # else:
+    #     if (math.isnan(val_FM)):
+    #         return 0
+    #     else:
+    #         print("Validation F-Measure:")
+    #         print(val_FM)
+    #         print(cm)
+    #         return val_FM
 
-    if(validation == False):
-        if(math.isnan(test_FM)):
-            return 0
-        else:
-            return test_FM
+    if(math.isnan(test_FM)):
+        return 0
     else:
-        if (math.isnan(val_FM)):
-            return 0
-        else:
-            print("Validation F-Measure:")
-            print(val_FM)
-            print(cm)
-            return val_FM
-
+        return test_FM
