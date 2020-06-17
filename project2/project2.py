@@ -100,17 +100,17 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 # ind2 = toolbox.individual()
 
 
-pop = toolbox.population(n=45)
+pop = toolbox.population(n=5)
 for i in range(len(pop)):
     print(decodeIndividual(pop[i][0]))
 
-hof = tools.HallOfFame(1)
+hof = tools.HallOfFame(5)
 stats = tools.Statistics(lambda ind: ind.fitness.values)
 stats.register("avg", np.mean)
 stats.register("min", np.min)
 stats.register("max", np.max)
 
-pop, logbook = algorithms.eaSimple(pop, toolbox, cxpb=0.5, mutpb=0.2, ngen=10, stats=stats, halloffame=hof, verbose=True)
+pop, logbook = algorithms.eaSimple(pop, toolbox, cxpb=0.5, mutpb=0.2, ngen=3, stats=stats, halloffame=hof, verbose=True)
 gen, avg, min_, max_ = logbook.select("gen", "avg", "min", "max")
 # print(hof)
 # for i in range(len(hof)):
@@ -128,13 +128,21 @@ plt.savefig('results.png')
 
 # print(hofind)
 # print(hofit)
+
+#OLD HOF
+# val_dicts = []
+# for i in range(len(hof)):
+#     val_dicts[i] = decodeIndividual(hof[i][0])
+#     fval = runMLP(tuple(val_dicts[i]['layersizes']), val_dicts[i]['input_features'], True)
+
+# NEW HOF
 maxvalues = max(hofit)
 bestinds = [i for i, j in enumerate(hofit) if j == maxvalues]
 print("Best inds:")
 print(bestinds)
 for i in range(len(bestinds)):
     print("=====================================")
-    print("Test Fitness "+ str(i) + ": " + str(hofit[bestinds[i]]))
+    print("Test Fitness "+ str(i) + " out of " + str(len(bestinds)-1) + ": " + str(hofit[bestinds[i]]))
     fval = runMLP(tuple(hofind[bestinds[i]]['layersizes']), hofind[bestinds[i]]['input_features'], True)
 
 # ind = toolbox.individual()

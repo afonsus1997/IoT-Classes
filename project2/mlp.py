@@ -29,8 +29,8 @@ def runMLP(layersizes, features, validation):
     print(layersizes)
     print(features)
 
-    device_data = pd.read_csv('Lab6-7-8_IoTGatewayCrash.csv', decimal='.')
-    # device_data = pd.read_csv('Proj2_IoTGatewayCrash_2.csv', decimal='.')
+    # device_data = pd.read_csv('Lab6-7-8_IoTGatewayCrash.csv', decimal='.')
+    device_data = pd.read_csv('Proj2_IoTGatewayCrash_2.csv', decimal='.')
 
 
     #shifted data
@@ -60,7 +60,7 @@ def runMLP(layersizes, features, validation):
 
 
 
-    x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.45, shuffle=False)
+    x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.35, shuffle=False)
     x_test, (x_val), y_test, y_val = train_test_split(x_test, y_test, test_size=0.4, shuffle=False)
 
 
