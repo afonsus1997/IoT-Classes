@@ -100,7 +100,7 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 # ind2 = toolbox.individual()
 
 
-pop = toolbox.population(n=5)
+pop = toolbox.population(n=50)
 for i in range(len(pop)):
     print(decodeIndividual(pop[i][0]))
 
@@ -110,7 +110,7 @@ stats.register("avg", np.mean)
 stats.register("min", np.min)
 stats.register("max", np.max)
 
-pop, logbook = algorithms.eaSimple(pop, toolbox, cxpb=0.5, mutpb=0.2, ngen=3, stats=stats, halloffame=hof, verbose=True)
+pop, logbook = algorithms.eaSimple(pop, toolbox, cxpb=0.5, mutpb=0.2, ngen=10, stats=stats, halloffame=hof, verbose=True)
 gen, avg, min_, max_ = logbook.select("gen", "avg", "min", "max")
 # print(hof)
 # for i in range(len(hof)):
