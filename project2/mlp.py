@@ -43,8 +43,8 @@ def runMLP(layersizes, features, validation):
     device_data['High_load'] = numpy.where(device_data['Load']>=0.53, 1, 0)
     device_data.loc[(device_data['High_requests'] == 1) & (device_data['High_load'] == 1), 'High_features'] = 1
 
-    device_data['Requests_mm'] = device_data['Requests'].rolling(10, win_type='triang').sum()
-    device_data['Load_mm'] = device_data['Load'].rolling(10, win_type='triang').sum()
+    device_data['Requests_mm'] = device_data['Requests'].rolling(5).sum()
+    device_data['Load_mm'] = device_data['Load'].rolling(5).sum()
     device_data.fillna(0, inplace=True)
 
     # print(device_data)
@@ -60,7 +60,7 @@ def runMLP(layersizes, features, validation):
 
 
 
-    x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.5, shuffle=False)
+    x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.65, shuffle=False)
     # x_test, (x_val), y_test, y_val = train_test_split(x_test, y_test, test_size=0.5, shuffle=False)
 
 

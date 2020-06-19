@@ -1,0 +1,7362 @@
+Script started on Wed 17 Jun 2020 01:49:27 PM WEST
+{'input_features': ['Requests', 'Requests1', 'High_requests', 'High_load', 'High_features', 'Load_mm'], 'layersizes': [7, 206]}
+{'input_features': ['Requests1', 'High_load', 'Requests_mm', 'Load_mm'], 'layersizes': [63, 89]}
+{'input_features': ['Requests', 'High_requests', 'High_load', 'High_features'], 'layersizes': [22, 16]}
+{'input_features': ['Requests', 'Requests1', 'Requests2', 'Load', 'Load_mm'], 'layersizes': [179, 117, 234]}
+{'input_features': ['Requests', 'Load', 'High_load', 'High_features'], 'layersizes': [108, 32]}
+{'input_features': ['Requests2', 'Requests_mm', 'Load_mm'], 'layersizes': [199, 28, 226]}
+{'input_features': ['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm'], 'layersizes': [239, 109, 248]}
+{'input_features': ['Requests', 'High_requests', 'High_features', 'Requests_mm'], 'layersizes': [41, 233, 37]}
+{'input_features': ['Requests', 'Requests1', 'Load', 'High_load', 'Requests_mm', 'Load_mm'], 'layersizes': [26]}
+{'input_features': ['Requests', 'High_requests', 'High_load', 'Load_mm'], 'layersizes': [99, 91, 183]}
+{'input_features': ['Requests2', 'Load', 'High_requests', 'High_load'], 'layersizes': [216]}
+{'input_features': ['Requests', 'High_features', 'Requests_mm'], 'layersizes': [238, 30]}
+{'input_features': ['Requests1', 'Requests2', 'Load', 'High_features', 'Requests_mm', 'Load_mm'], 'layersizes': [134, 188, 198]}
+{'input_features': ['Load', 'Load_mm'], 'layersizes': [69]}
+{'input_features': ['Requests1', 'Load', 'High_load', 'High_features', 'Load_mm'], 'layersizes': [86, 41, 121]}
+{'input_features': ['Requests', 'Requests1', 'Requests2', 'Requests_mm', 'Load_mm'], 'layersizes': [203, 2]}
+{'input_features': ['Requests', 'High_features', 'Requests_mm', 'Load_mm'], 'layersizes': [199, 236]}
+{'input_features': ['Load', 'High_requests'], 'layersizes': [202, 188, 136]}
+{'input_features': ['Requests1', 'High_requests', 'High_load', 'High_features', 'Requests_mm'], 'layersizes': [200, 80, 82]}
+{'input_features': ['Requests', 'Requests1', 'Load', 'Load_mm'], 'layersizes': [174, 59, 215]}
+{'input_features': ['Requests1', 'Requests2', 'High_load', 'Load_mm'], 'layersizes': [108]}
+{'input_features': ['Requests', 'Requests_mm', 'Load_mm'], 'layersizes': [91, 146, 57]}
+{'input_features': ['Requests', 'Load', 'Requests_mm', 'Load_mm'], 'layersizes': [226]}
+{'input_features': ['Requests', 'Requests2', 'High_load', 'High_features', 'Load_mm'], 'layersizes': [91]}
+{'input_features': ['Requests2', 'High_load', 'Requests_mm'], 'layersizes': [223]}
+{'input_features': ['Requests2', 'High_load', 'High_features', 'Requests_mm', 'Load_mm'], 'layersizes': [163]}
+{'input_features': ['Requests1', 'High_requests', 'High_load', 'Requests_mm'], 'layersizes': [84, 165]}
+{'input_features': ['Requests', 'Requests1', 'Load', 'High_requests', 'High_load', 'High_features'], 'layersizes': [60, 173, 186]}
+{'input_features': ['Requests1', 'High_requests', 'High_features', 'Requests_mm', 'Load_mm'], 'layersizes': [170]}
+{'input_features': ['Requests1', 'Load', 'High_requests', 'Requests_mm'], 'layersizes': [100, 23, 153]}
+{'input_features': ['Requests', 'Requests2', 'High_load', 'Load_mm'], 'layersizes': [147, 189, 130]}
+{'input_features': ['Load', 'High_load', 'High_features', 'Requests_mm'], 'layersizes': [26]}
+{'input_features': ['Requests', 'High_requests', 'High_features', 'Requests_mm', 'Load_mm'], 'layersizes': [7, 48]}
+{'input_features': ['Requests1', 'Load', 'High_features'], 'layersizes': [75, 104, 110]}
+{'input_features': ['Requests2', 'Load', 'High_requests', 'High_load', 'High_features', 'Requests_mm', 'Load_mm'], 'layersizes': [54, 204]}
+{'input_features': ['Load', 'High_load', 'High_features', 'Requests_mm', 'Load_mm'], 'layersizes': [200]}
+{'input_features': ['Requests1', 'Load', 'High_requests', 'High_load', 'High_features', 'Load_mm'], 'layersizes': [133, 254]}
+{'input_features': ['Requests', 'High_load', 'Load_mm'], 'layersizes': [160, 102, 229]}
+{'input_features': ['Requests1', 'Requests2', 'High_requests', 'Requests_mm'], 'layersizes': [155]}
+{'input_features': ['Requests2', 'Load', 'High_requests', 'High_load', 'Requests_mm'], 'layersizes': [39]}
+{'input_features': ['High_load', 'Requests_mm', 'Load_mm'], 'layersizes': [167]}
+{'input_features': ['Load', 'High_requests', 'High_load', 'Requests_mm', 'Load_mm'], 'layersizes': [51]}
+{'input_features': ['Requests2', 'Load', 'High_load', 'High_features', 'Load_mm'], 'layersizes': [149, 118, 111]}
+{'input_features': ['Requests1', 'Load', 'High_load', 'Requests_mm', 'Load_mm'], 'layersizes': [118, 26, 70]}
+{'input_features': ['Requests', 'High_requests', 'High_load', 'Load_mm'], 'layersizes': [25, 93]}
+{'input_features': ['Requests1', 'High_requests', 'High_features', 'Requests_mm'], 'layersizes': [121, 140, 253]}
+{'input_features': ['Requests1', 'High_requests', 'High_features', 'Load_mm'], 'layersizes': [74, 60, 78]}
+{'input_features': ['Requests1', 'Requests2', 'Load', 'High_requests', 'High_load', 'High_features'], 'layersizes': [94, 169, 14]}
+{'input_features': ['Requests1', 'Requests2', 'Load', 'High_load', 'Load_mm'], 'layersizes': [70]}
+{'input_features': ['Requests', 'High_requests', 'High_load', 'Requests_mm'], 'layersizes': [164, 33, 76]}
+
+
+
+(7, 206)
+['Requests', 'Requests1', 'High_requests', 'High_load', 'High_features', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.6
+[[492   3]
+ [  1   3]]
+
+
+
+(63, 89)
+['Requests1', 'High_load', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(22, 16)
+['Requests', 'High_requests', 'High_load', 'High_features']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  2   6]]
+Train F-Measure:
+0.7999999999999999
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+
+
+
+(179, 117, 234)
+['Requests', 'Requests1', 'Requests2', 'Load', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.6666666666666665
+[[493   2]
+ [  1   3]]
+
+
+
+(108, 32)
+['Requests', 'Load', 'High_load', 'High_features']
+[[488   2]
+ [  2   6]]
+Train F-Measure:
+0.75
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+
+
+
+(199, 28, 226)
+['Requests2', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  6   2]]
+Train F-Measure:
+0.4
+Test F-Measure:
+0.4
+[[495   0]
+ [  3   1]]
+
+
+
+(239, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(41, 233, 37)
+['Requests', 'High_requests', 'High_features', 'Requests_mm']
+[[490   0]
+ [  2   6]]
+Train F-Measure:
+0.8571428571428571
+Test F-Measure:
+0.8571428571428571
+[[495   0]
+ [  1   3]]
+
+
+
+(26,)
+['Requests', 'Requests1', 'Load', 'High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.8
+[[493   2]
+ [  0   4]]
+
+
+
+(99, 91, 183)
+['Requests', 'High_requests', 'High_load', 'Load_mm']
+[[489   1]
+ [  1   7]]
+Train F-Measure:
+0.875
+Test F-Measure:
+0.6
+[[492   3]
+ [  1   3]]
+
+
+
+(216,)
+['Requests2', 'Load', 'High_requests', 'High_load']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  1   7]]
+Train F-Measure:
+0.875
+Test F-Measure:
+0.7272727272727273
+[[492   3]
+ [  0   4]]
+
+
+
+(238, 30)
+['Requests', 'High_features', 'Requests_mm']
+[[489   1]
+ [  2   6]]
+Train F-Measure:
+0.7999999999999999
+Test F-Measure:
+0.8571428571428571
+[[495   0]
+ [  1   3]]
+
+
+
+(134, 188, 198)
+['Requests1', 'Requests2', 'Load', 'High_features', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.8571428571428571
+[[495   0]
+ [  1   3]]
+
+
+
+(69,)
+['Load', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+
+
+
+(86, 41, 121)
+['Requests1', 'Load', 'High_load', 'High_features', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.7272727272727273
+[[492   3]
+ [  0   4]]
+
+
+
+(203, 2)
+['Requests', 'Requests1', 'Requests2', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  7   1]]
+Train F-Measure:
+0.2222222222222222
+Test F-Measure:
+0.4
+[[495   0]
+ [  3   1]]
+
+
+
+(199, 236)
+['Requests', 'High_features', 'Requests_mm', 'Load_mm']
+[[489   1]
+ [  2   6]]
+Train F-Measure:
+0.7999999999999999
+Test F-Measure:
+0.8571428571428571
+[[495   0]
+ [  1   3]]
+
+
+
+(202, 188, 136)
+['Load', 'High_requests']
+[[488   2]
+ [  2   6]]
+Train F-Measure:
+0.75
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+
+
+
+(200, 80, 82)
+['Requests1', 'High_requests', 'High_load', 'High_features', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(174, 59, 215)
+['Requests', 'Requests1', 'Load', 'Load_mm']
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.6666666666666665
+[[493   2]
+ [  1   3]]
+
+
+
+(108,)
+['Requests1', 'Requests2', 'High_load', 'Load_mm']
+[[489   1]
+ [  1   7]]
+Train F-Measure:
+0.875
+Test F-Measure:
+0.7272727272727273
+[[492   3]
+ [  0   4]]
+
+
+
+(91, 146, 57)
+['Requests', 'Requests_mm', 'Load_mm']
+[[489   1]
+ [  5   3]]
+Train F-Measure:
+0.5
+Test F-Measure:
+0.28571428571428575
+[[493   2]
+ [  3   1]]
+
+
+
+(226,)
+['Requests', 'Load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+
+
+
+(91,)
+['Requests', 'Requests2', 'High_load', 'High_features', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  1   7]]
+Train F-Measure:
+0.875
+Test F-Measure:
+0.6
+[[492   3]
+ [  1   3]]
+
+
+
+(223,)
+['Requests2', 'High_load', 'Requests_mm']
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(163,)
+['Requests2', 'High_load', 'High_features', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+
+
+
+(84, 165)
+['Requests1', 'High_requests', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(60, 173, 186)
+['Requests', 'Requests1', 'Load', 'High_requests', 'High_load', 'High_features']
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.7272727272727273
+[[492   3]
+ [  0   4]]
+
+
+
+(170,)
+['Requests1', 'High_requests', 'High_features', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  2   6]]
+Train F-Measure:
+0.8571428571428571
+Test F-Measure:
+0.8571428571428571
+[[495   0]
+ [  1   3]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(147, 189, 130)
+['Requests', 'Requests2', 'High_load', 'Load_mm']
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.7272727272727273
+[[492   3]
+ [  0   4]]
+
+
+
+(26,)
+['Load', 'High_load', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  1   7]]
+Train F-Measure:
+0.875
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(7, 48)
+['Requests', 'High_requests', 'High_features', 'Requests_mm', 'Load_mm']
+[[489   1]
+ [  2   6]]
+Train F-Measure:
+0.7999999999999999
+Test F-Measure:
+0.8571428571428571
+[[495   0]
+ [  1   3]]
+
+
+
+(75, 104, 110)
+['Requests1', 'Load', 'High_features']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.8
+[[493   2]
+ [  0   4]]
+
+
+
+(54, 204)
+['Requests2', 'Load', 'High_requests', 'High_load', 'High_features', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(200,)
+['Load', 'High_load', 'High_features', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.6666666666666665
+[[493   2]
+ [  1   3]]
+
+
+
+(133, 254)
+['Requests1', 'Load', 'High_requests', 'High_load', 'High_features', 'Load_mm']
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.7272727272727273
+[[492   3]
+ [  0   4]]
+
+
+
+(160, 102, 229)
+['Requests', 'High_load', 'Load_mm']
+[[488   2]
+ [  1   7]]
+Train F-Measure:
+0.823529411764706
+Test F-Measure:
+0.6
+[[492   3]
+ [  1   3]]
+
+
+
+(155,)
+['Requests1', 'Requests2', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  6   2]]
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Train F-Measure:
+0.4
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+
+
+
+(39,)
+['Requests2', 'Load', 'High_requests', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(167,)
+['High_load', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(51,)
+['Load', 'High_requests', 'High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(149, 118, 111)
+['Requests2', 'Load', 'High_load', 'High_features', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.7272727272727273
+[[492   3]
+ [  0   4]]
+
+
+
+(118, 26, 70)
+['Requests1', 'Load', 'High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(25, 93)
+['Requests', 'High_requests', 'High_load', 'Load_mm']
+[[488   2]
+ [  2   6]]
+Train F-Measure:
+0.75
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+
+
+
+(121, 140, 253)
+['Requests1', 'High_requests', 'High_features', 'Requests_mm']
+[[490   0]
+ [  2   6]]
+Train F-Measure:
+0.8571428571428571
+Test F-Measure:
+0.8571428571428571
+[[495   0]
+ [  1   3]]
+
+
+
+(74, 60, 78)
+['Requests1', 'High_requests', 'High_features', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  2   6]]
+Train F-Measure:
+0.7999999999999999
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+
+
+
+(94, 169, 14)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'High_load', 'High_features']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.7272727272727273
+[[492   3]
+ [  0   4]]
+
+
+
+(70,)
+['Requests1', 'Requests2', 'Load', 'High_load', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  2   6]]
+Train F-Measure:
+0.7999999999999999
+Test F-Measure:
+0.7272727272727273
+[[492   3]
+ [  0   4]]
+
+
+
+(164, 33, 76)
+['Requests', 'High_requests', 'High_load', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+gen	nevals	avg     	min	max
+0  	50    	0.733179	0  	1  
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+
+
+
+(25, 93)
+['Requests', 'High_requests', 'High_load', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[488   2]
+ [  2   6]]
+Train F-Measure:
+0.75
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+
+
+
+(54, 204)
+['Requests2', 'Load', 'High_requests', 'High_load', 'High_features', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(54, 204)
+['Requests2', 'Load', 'High_requests', 'High_load', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(63, 89)
+['Requests1', 'High_load', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(84, 165)
+['Requests1', 'High_requests', 'High_load', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(163,)
+['Requests2', 'High_load', 'High_features', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+
+
+
+(104, 32)
+['Requests', 'Load', 'High_load', 'High_features']
+[[488   2]
+ [  2   6]]
+Train F-Measure:
+0.75
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+
+
+
+(118, 26, 70)
+['Requests1', 'Load', 'High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(63, 89)
+['Requests1', 'High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(89, 228, 253)
+['Requests1', 'High_requests', 'High_features', 'Requests_mm']
+[[490   0]
+ [  2   6]]
+Train F-Measure:
+0.8571428571428571
+Test F-Measure:
+0.8571428571428571
+[[495   0]
+ [  1   3]]
+
+
+
+(51,)
+['Load', 'High_requests', 'High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  1   7]]
+Train F-Measure:
+0.875
+Test F-Measure:
+0.8
+[[493   2]
+ [  0   4]]
+
+
+
+(167,)
+['High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(200, 80, 82)
+['Requests1', 'High_requests', 'High_load', 'High_features', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(105, 233, 37)
+['Requests', 'High_requests', 'High_features', 'Requests_mm']
+[[490   0]
+ [  2   6]]
+Train F-Measure:
+0.8571428571428571
+Test F-Measure:
+0.8571428571428571
+[[495   0]
+ [  1   3]]
+
+
+
+(51,)
+['Load', 'High_requests', 'High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.8
+[[493   2]
+ [  0   4]]
+
+
+
+(202, 188, 136)
+['Load', 'High_requests']
+[[488   2]
+ [  2   6]]
+Train F-Measure:
+0.75
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+
+
+
+(25, 93)
+['Requests', 'High_requests', 'High_load', 'Load_mm']
+[[488   2]
+ [  2   6]]
+Train F-Measure:
+0.75
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+
+
+
+(223,)
+['Requests2', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(163,)
+['Requests2', 'High_load', 'High_features', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+
+
+
+(223, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(54, 204)
+['Requests2', 'Load', 'High_requests', 'High_load', 'High_features', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(167,)
+['High_load', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(63, 89)
+['Requests1', 'Load', 'High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(39,)
+['Requests2', 'Load', 'High_requests', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(26,)
+['Load', 'High_load', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  1   7]]
+Train F-Measure:
+0.875
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+1  	28    	0.866545	0.727273	1  
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+
+
+
+(84, 165)
+['Requests1', 'High_requests', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(54, 204)
+['Requests2', 'Load', 'High_requests', 'High_load', 'High_features', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(39,)
+['Requests2', 'Load', 'High_requests', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(39,)
+['Requests2', 'Load', 'High_requests', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(170,)
+['Requests1', 'High_requests', 'High_features', 'Requests_mm', 'Load_mm']
+[[489   1]
+ [  2   6]]
+Train F-Measure:
+0.7999999999999999
+Test F-Measure:
+0.8571428571428571
+[[495   0]
+ [  1   3]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(223, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(51,)
+['Load', 'High_requests', 'High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.8
+[[493   2]
+ [  0   4]]
+
+
+
+(199, 236)
+['Requests', 'High_features', 'Requests_mm', 'Load_mm']
+[[489   1]
+ [  2   6]]
+Train F-Measure:
+0.7999999999999999
+Test F-Measure:
+0.8571428571428571
+[[495   0]
+ [  1   3]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(63, 89)
+['Requests1', 'Load', 'High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(39,)
+['Requests2', 'Load', 'High_requests', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(39,)
+['Requests2', 'Load', 'High_requests', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(84, 165)
+['Requests1', 'High_requests', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(51,)
+['Load', 'High_requests', 'High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  1   7]]
+Train F-Measure:
+0.875
+Test F-Measure:
+0.8
+[[493   2]
+ [  0   4]]
+
+
+
+(72, 64, 82)
+['Requests1', 'High_requests', 'High_load', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(84, 165)
+['Requests1', 'High_requests', 'High_load', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(63, 89)
+['Requests1', 'High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(26,)
+['Load', 'High_load', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  1   7]]
+Train F-Measure:
+0.875
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(167,)
+['High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(223, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(84, 165)
+['Requests1', 'High_requests', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(228, 23, 153)
+['Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(116, 19, 189)
+['Requests1', 'Requests2', 'Requests_mm']
+[[490   0]
+ [  6   2]]
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Train F-Measure:
+0.4
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+
+
+
+(200, 80, 82)
+['Requests1', 'High_requests', 'High_load', 'High_features', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(39,)
+['Requests2', 'Load', 'High_requests', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(165,)
+['High_requests', 'High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.8
+[[493   2]
+ [  0   4]]
+
+
+
+(54, 204)
+['Requests2', 'Load', 'High_requests', 'High_load', 'High_features', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(51,)
+['Load', 'High_requests', 'High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.8
+[[493   2]
+ [  0   4]]
+
+
+
+(39,)
+['Requests2', 'Load', 'High_requests', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(54, 204)
+['Requests2', 'Load', 'High_requests', 'High_load', 'High_features', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+2  	35    	0.887175	0       	1  
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 137)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(84, 165)
+['Requests1', 'High_requests', 'High_load', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(80, 165)
+['Requests1', 'High_requests', 'High_load', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(54, 204)
+['Requests2', 'Load', 'High_requests', 'High_load', 'High_features', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(223, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.8571428571428571
+[[495   0]
+ [  1   3]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(63, 89)
+['Requests1', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(223,)
+['Requests2', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(223,)
+['Requests2', 'High_load', 'Requests_mm']
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(63, 89)
+['Requests1', 'High_load', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(223, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(63, 89)
+['Requests1', 'High_load', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(116, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(39,)
+['Requests2', 'Load', 'High_requests', 'High_load']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  1   7]]
+Train F-Measure:
+0.875
+Test F-Measure:
+0.7272727272727273
+[[492   3]
+ [  0   4]]
+
+
+
+(84, 165)
+['Requests1', 'High_requests', 'High_load', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(223, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(54, 204)
+['Requests2', 'Load', 'High_requests', 'High_load', 'High_features', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+
+
+
+(63, 89)
+['Requests1', 'High_load', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(102, 23, 145)
+['Requests1', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  5   3]]
+Train F-Measure:
+0.5454545454545454
+Test F-Measure:
+0.28571428571428575
+[[493   2]
+ [  3   1]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(200, 80, 82)
+['Requests1', 'High_requests', 'High_load', 'High_features', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(223,)
+['Requests2', 'High_load', 'Requests_mm']
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(219, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+3  	40    	0.927958	0.285714	1  
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+
+
+
+(223,)
+['Requests2', 'High_requests', 'High_load', 'Requests_mm']
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(63, 89)
+['Requests1', 'High_load', 'Requests_mm']
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(72, 64, 82)
+['Requests1', 'High_requests', 'High_load', 'High_features', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(32, 7, 137)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(76, 87, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(84, 165)
+['Requests1', 'High_requests', 'High_load', 'High_features', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(223,)
+['Requests2', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(116, 23, 217)
+['Requests1', 'Load', 'High_requests']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.8
+[[493   2]
+ [  0   4]]
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+4  	25    	0.980444	0.8     	1  
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(102, 85, 185)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 145)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 29, 185)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(76, 87, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 151, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(116, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 63, 153)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 157)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(219, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(223,)
+['Requests2', 'High_load', 'Requests_mm']
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(116, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(116, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+5  	33    	0.986667	0.888889	1  
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 157)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 177)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(76, 23, 153)
+['Requests1', 'Load', 'High_requests']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.8
+[[493   2]
+ [  0   4]]
+
+
+
+(100, 147, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 63, 153)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(96, 87, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(96, 55, 217)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests', 'Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 151, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  1   7]]
+Train F-Measure:
+0.9333333333333333
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(4, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  1   7]]
+Train F-Measure:
+0.9333333333333333
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+6  	28    	0.975444	0.75    	1  
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(4, 151, 157)
+['Requests1', 'Load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(108, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(228, 55, 157)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 22, 153)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(102, 23, 138)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.8571428571428571
+[[495   0]
+ [  1   3]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 157)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 217)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(108, 85, 177)
+['Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 177)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(96, 55, 217)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 151, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(96, 87, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+7  	28    	0.979365	0.857143	1  
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+
+
+
+(96, 55, 209)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(4, 151, 157)
+['Requests1', 'Load', 'Requests_mm']
+[[490   0]
+ [  1   7]]
+Train F-Measure:
+0.9333333333333333
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(96, 55, 217)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+ /afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 55, 153)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(4, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  1   7]]
+Train F-Measure:
+0.9333333333333333
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(108, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 21, 155)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(96, 87, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(116, 151, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(228, 55, 157)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 177)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 177)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 147, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 147, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 157)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(108, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 53, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+8  	27    	0.993333	0.888889	1  
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(96, 55, 209)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(4, 19, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(228, 55, 157)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(102, 87, 154)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(4, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[488   2]
+ [  3   5]]
+Train F-Measure:
+0.6666666666666666
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(228, 55, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 85, 145)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(236, 29, 153)
+['Requests1', 'Load', 'High_requests']
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.8
+[[493   2]
+ [  0   4]]
+
+
+
+(96, 55, 217)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 213, 155)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(102, 150, 177)
+['Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  1   7]]
+Train F-Measure:
+0.9333333333333333
+Test F-Measure:
+0.8571428571428571
+[[495   0]
+ [  1   3]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(4, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[489   1]
+ [  1   7]]
+Train F-Measure:
+0.875
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(96, 55, 201)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 147, 185)
+['Requests1', 'Load', 'High_requests', 'High_load', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(116, 86, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+9  	27    	0.986476	0.8     	1  
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(16, 183, 221)
+['Requests1', 'Load', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(4, 151, 157)
+['Requests1', 'Load', 'Requests_mm']
+[[489   1]
+ [  0   8]]
+Train F-Measure:
+0.9411764705882353
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 147, 157)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(96, 55, 217)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(96, 23, 177)
+['Requests1', 'Load', 'High_requests', 'High_load', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(36, 87, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(228, 55, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(96, 55, 201)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(96, 23, 152)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(100, 55, 153)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 19, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(116, 86, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(4, 151, 157)
+['Requests1', 'Load', 'Requests_mm']
+[[489   1]
+ [  2   6]]
+Train F-Measure:
+0.7999999999999999
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(4, 19, 153)
+['Requests', 'Requests1', 'Load', 'High_requests']
+[[488   2]
+ [  3   5]]
+Train F-Measure:
+0.6666666666666666
+Test F-Measure:
+0.7272727272727273
+[[492   3]
+ [  0   4]]
+
+
+
+(100, 85, 157)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 69, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 177)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(108, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(102, 87, 154)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 55, 153)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(4, 19, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+
+
+
+(4, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(100, 55, 153)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+
+
+
+(4, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[489   1]
+ [  1   7]]
+Train F-Measure:
+0.875
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+10 	40    	0.976768	0.727273	1  
+Best inds:
+[6, 29, 59, 60, 65, 72, 84, 85, 99, 105, 111, 112, 113, 114, 115, 117, 118, 119, 120, 121, 123, 125, 133, 134, 136, 139, 140, 141, 144, 146, 147, 149, 151, 152, 155, 157, 158, 159, 160, 161, 162, 164, 165, 166, 167, 168, 169, 170, 171, 173, 175, 177, 178, 180, 181, 183, 184, 185, 187, 188, 190, 191, 192, 193, 194, 195, 196, 197, 198, 200, 201, 202, 203, 205, 206, 207, 208, 209, 210, 211, 212, 213, 215, 217, 219, 220, 222, 224, 225, 226, 227, 229, 230, 231, 232, 235, 237, 238, 239, 240, 242, 243, 244, 245, 246, 247, 252, 253, 255, 256, 257, 259, 260, 261, 262, 263, 264, 266, 267, 268, 269, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 282, 283, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 302, 303, 304, 306, 307, 308, 310, 312, 313, 314, 315, 316, 318, 319, 320, 321, 322, 323, 325, 326, 327, 328, 329, 330, 331, 335, 336, 337, 338, 340, 342, 343, 344, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 358, 359]
+=====================================
+Test Fitness 0 out of 194: 1.0
+
+
+
+(239, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 1 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 2 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 3 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 4 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 5 out of 194: 1.0
+
+
+
+(223, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  5   3]]
+Train F-Measure:
+0.5454545454545454
+Test F-Measure:
+0.4
+[[495   0]
+ [  3   1]]
+=====================================
+Test Fitness 6 out of 194: 1.0
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 7 out of 194: 1.0
+
+
+
+(223, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 8 out of 194: 1.0
+
+
+
+(223, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 9 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 10 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 11 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 12 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 13 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 14 out of 194: 1.0
+
+
+
+(100, 23, 137)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 15 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 16 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 17 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 18 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 19 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 20 out of 194: 1.0
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 21 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+=====================================
+Test Fitness 22 out of 194: 1.0
+
+
+
+(223, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 23 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 24 out of 194: 1.0
+
+
+
+(116, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 25 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 26 out of 194: 1.0
+
+
+
+(223, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 27 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 28 out of 194: 1.0
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 29 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 30 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 31 out of 194: 1.0
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+=====================================
+Test Fitness 32 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 33 out of 194: 1.0
+
+
+
+(219, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 34 out of 194: 1.0
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 35 out of 194: 1.0
+
+
+
+(32, 7, 137)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 36 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 37 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 38 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 39 out of 194: 1.0
+
+
+
+(76, 87, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 40 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+=====================================
+Test Fitness 41 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 42 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 43 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 44 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 45 out of 194: 1.0
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 46 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 47 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 48 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 49 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 50 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 51 out of 194: 1.0
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 52 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 53 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 54 out of 194: 1.0
+
+
+
+(102, 85, 185)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+=====================================
+Test Fitness 55 out of 194: 1.0
+
+
+
+(100, 23, 145)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'Requests_mm']
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (600) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 56 out of 194: 1.0
+
+
+
+(100, 29, 185)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+1.0
+[[495   0]
+ [  0   4]]
+=====================================
+Test Fitness 57 out of 194: 1.0
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+[[490   0]
+ [  0   8]]
+Train F-Measure:
+1.0
+Test F-Measure:
+0.888888888888889
+[[494   1]
+ [  0   4]]
+=====================================
+Test Fitness 58 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 59 out of 194: 1.0
+
+
+
+(76, 87, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 60 out of 194: 1.0
+
+
+
+(100, 151, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 61 out of 194: 1.0
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 62 out of 194: 1.0
+
+
+
+(116, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 63 out of 194: 1.0
+
+
+
+(100, 63, 153)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 64 out of 194: 1.0
+
+
+
+(100, 23, 157)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+[[489   1]
+ [  2   6]]
+Train F-Measure:
+0.7999999999999999
+Test F-Measure:
+0.75
+[[494   1]
+ [  1   3]]
+=====================================
+Test Fitness 65 out of 194: 1.0
+
+
+
+(219, 109, 248)
+['Requests', 'Requests2', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 66 out of 194: 1.0
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 67 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 68 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 69 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 70 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 71 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 72 out of 194: 1.0
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 73 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 74 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 75 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 76 out of 194: 1.0
+
+
+
+(116, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 77 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+[[286 204]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[278 217]
+ [  4   0]]
+=====================================
+Test Fitness 78 out of 194: 1.0
+
+
+
+(116, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 79 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 80 out of 194: 1.0
+
+
+
+(100, 23, 157)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 81 out of 194: 1.0
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 82 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+[[  0 490]
+ [  0   8]]
+Train F-Measure:
+0.03162055335968379
+Test F-Measure:
+0.015904572564612324
+[[  0 495]
+ [  0   4]]
+=====================================
+Test Fitness 83 out of 194: 1.0
+
+
+
+(100, 23, 177)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+[[  0 490]
+ [  0   8]]
+Train F-Measure:
+0.03162055335968379
+Test F-Measure:
+0.015904572564612324
+[[  0 495]
+ [  0   4]]
+=====================================
+Test Fitness 84 out of 194: 1.0
+
+
+
+(100, 147, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 85 out of 194: 1.0
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 86 out of 194: 1.0
+
+
+
+(100, 63, 153)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 87 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 88 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 89 out of 194: 1.0
+
+
+
+(96, 87, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 90 out of 194: 1.0
+
+
+
+(96, 55, 217)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 91 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+[[480  10]
+ [  7   1]]
+Train F-Measure:
+0.10526315789473685
+Test F-Measure:
+0.0
+[[489   6]
+ [  4   0]]
+=====================================
+Test Fitness 92 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 93 out of 194: 1.0
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+[[ 77 413]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[ 61 434]
+ [  4   0]]
+=====================================
+Test Fitness 94 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 95 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 96 out of 194: 1.0
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 97 out of 194: 1.0
+
+
+
+(4, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 98 out of 194: 1.0
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 99 out of 194: 1.0
+
+
+
+(100, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm', 'Load_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 100 out of 194: 1.0
+
+
+
+(4, 151, 157)
+['Requests1', 'Load', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 101 out of 194: 1.0
+
+
+
+(100, 85, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 102 out of 194: 1.0
+
+
+
+(100, 23, 152)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 103 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 104 out of 194: 1.0
+
+
+
+(108, 21, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+[[153 337]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[134 361]
+ [  4   0]]
+=====================================
+Test Fitness 105 out of 194: 1.0
+
+
+
+(228, 55, 157)
+['Requests1', 'Requests2', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 106 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 107 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 108 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 109 out of 194: 1.0
+
+
+
+(100, 23, 157)
+['Requests1', 'Load', 'High_requests', 'High_features', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 110 out of 194: 1.0
+
+
+
+(100, 23, 217)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 111 out of 194: 1.0
+
+
+
+(100, 23, 177)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 112 out of 194: 1.0
+
+
+
+(96, 55, 217)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 113 out of 194: 1.0
+
+
+
+(100, 151, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 114 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 115 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 116 out of 194: 1.0
+
+
+
+(96, 87, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 117 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 118 out of 194: 1.0
+
+
+
+(96, 55, 209)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 119 out of 194: 1.0
+
+
+
+(4, 151, 157)
+['Requests1', 'Load', 'Requests_mm']
+^C/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/neural_network/_multilayer_perceptron.py:573: UserWarning: Training interrupted by user.
+  warnings.warn("Training interrupted by user.")
+/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[490   0]
+ [  8   0]]
+Train F-Measure:
+0.0
+Test F-Measure:
+0.0
+[[495   0]
+ [  4   0]]
+=====================================
+Test Fitness 120 out of 194: 1.0
+
+
+
+(100, 23, 153)
+['Requests1', 'Load', 'High_requests', 'Requests_mm']
+^CTraceback (most recent call last):
+  File "project2.py", line 146, in <module>
+    fval = runMLP(tuple(hofind[bestinds[i]]['layersizes']), hofind[bestinds[i]]['input_features'], True)
+  File "/afs/.ist.utl.pt/users/7/9/ist426079/IoT-Classes/project2/mlp.py", line 63, in runMLP
+    x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.5, shuffle=False)
+  File "/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/model_selection/_split.py", line 2146, in train_test_split
+    _safe_indexing(a, test)) for a in arrays))
+  File "/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/model_selection/_split.py", line 2146, in <genexpr>
+    _safe_indexing(a, test)) for a in arrays))
+  File "/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/utils/__init__.py", line 411, in _safe_indexing
+    return _pandas_indexing(X, indices, indices_dtype, axis=axis)
+  File "/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/sklearn/utils/__init__.py", line 213, in _pandas_indexing
+    return indexer[:, key] if axis else indexer[key]
+  File "/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/pandas/core/indexing.py", line 1424, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/pandas/core/indexing.py", line 2148, in _getitem_axis
+    return self._get_list_axis(key, axis=axis)
+  File "/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/pandas/core/indexing.py", line 2130, in _get_list_axis
+    return self.obj.take(key, axis=axis)
+  File "/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/pandas/core/generic.py", line 3604, in take
+    indices, axis=self._get_block_manager_axis(axis), verify=True
+  File "/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/pandas/core/internals/managers.py", line 1389, in take
+    indexer = maybe_convert_indices(indexer, n)
+  File "/afs/.ist.utl.pt/users/7/9/ist426079/.local/lib/python3.5/site-packages/pandas/core/indexers.py", line 194, in maybe_convert_indices
+    mask = indices < 0
+KeyboardInterrupt
+^C
+Script done on Wed 17 Jun 2020 02:39:15 PM WEST
